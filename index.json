@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16 14:07",
+  "updated": "2026-11-16 14:17",
   "items": [
     {
       "name": "DiDiSong Toolbox",
@@ -35,6 +35,17 @@
       "size": 33167
     },
     {
+      "name": "StradaOS",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/StradaOS-2.16.0.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/StradaOS-2.16.0.apk.icon.png",
+      "package": "com.stradaos.launcher",
+      "versionCode": 46,
+      "version": "2.16.0",
+      "note": ".\n🕹️🏪 سترادا او اس لانشر / للانظمة القديمة\n📱🏪 StradaOS launcher / For old dilink\n\n. 🆓🔥",
+      "sha256": "11875df8b1458f870f23c9c39bfb74e0b79f97782d53aa3f4ec8e09dacce9c88",
+      "size": 599784
+    },
+    {
       "name": "Opera Mini",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/base.apk",
       "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/base.apk.icon.webp",
@@ -50,11 +61,11 @@
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
       "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
       "package": "com.zmd.carhub",
-      "versionCode": 15,
-      "version": "1.5",
+      "versionCode": 16,
+      "version": "1.6",
       "note": "",
-      "sha256": "78f8b016df9d53000810e8896d9a54d4958704273efd3952a6e8b6d1ecd8a449",
-      "size": 72793754
+      "sha256": "aa35c72f206f1e00aeb944895b3d8928137ec9c05c727a4b72f2bef15d8e5f85",
+      "size": 72793750
     }
   ]
 }
