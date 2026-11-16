@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16 13:32",
+  "updated": "2026-11-16 13:44",
   "items": [
     {
       "name": "DiDiSong Toolbox",
@@ -37,7 +37,7 @@
     {
       "name": "Opera Mini",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/base.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/base.apk.icon.webp",
       "package": "com.opera.mini.native",
       "versionCode": 999901499,
       "version": "99.6.2254.2363",
