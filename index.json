@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16 13:18",
+  "updated": "2026-11-16 13:24",
   "items": [
     {
       "name": "DiDiSong Toolbox",
@@ -39,11 +39,11 @@
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
       "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
       "package": "com.zmd.carhub",
-      "versionCode": 10,
-      "version": "1.0",
+      "versionCode": 11,
+      "version": "1.1",
       "note": "",
-      "sha256": "7cd32aed846c5df69629f90c17627c12f2f375c845ba477d6fa2b40baf7d7bdc",
-      "size": 72793714
+      "sha256": "fb3017546a955a4da25262140e07c3bae515008fa7c88ba201aa1b22861d8370",
+      "size": 72793710
     }
   ]
 }
