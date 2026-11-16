@@ -1,12 +1,23 @@
 {
-  "updated": "2026-11-16 12:06",
+  "updated": "2026-11-16 12:50",
   "items": [
+    {
+      "name": "DiDiSong Toolbox",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DIDI_ADB_Translated_by_Devolt.apk",
+      "package": "com.ddsong.bydbox",
+      "versionCode": 10,
+      "version": "1.2.1",
+      "note": "طريقة تفعيل ADB مجانا وتجاوز QR لسيارات ديلنك 3.0\nFree active ADB for BYD Dilink 3.0 and QR bypass \n\n🇺🇦 Here 🎥 شاهد فيديو العمل \n\n.🆓🔥",
+      "sha256": "99c8519d3fa134e2a643007ac69f1bec500dcc667b00a4c9afd02e0f048acfc2",
+      "size": 3479036
+    },
     {
       "name": "DiAuto",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiAuto-v0.3.9.apk",
       "package": "com.andrerinas.headunitrevived",
       "versionCode": 109,
       "version": "0.3.9",
+      "note": "",
       "sha256": "e6858ea58d24f2f1290b243d76a1228420b3f648c21c7add99e811baec58a0f9",
       "size": 11119376
     },
@@ -14,10 +25,11 @@
       "name": "ZMD Car",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
       "package": "com.zmd.carhub",
-      "versionCode": 6,
-      "version": "0.6",
-      "sha256": "208fe6b9a50313689d74c28519e586e6dd59d355230f315c2b9c1d5723710880",
-      "size": 72793694
+      "versionCode": 7,
+      "version": "0.7",
+      "note": "",
+      "sha256": "bca9ec9a55e31d931a5e5774b988b401afd13478560ce6414cbfdc26190191c8",
+      "size": 72793698
     }
   ]
 }
