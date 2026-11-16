@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16 13:10",
+  "updated": "2026-11-16 13:18",
   "items": [
     {
       "name": "DiDiSong Toolbox",
@@ -24,14 +24,25 @@
       "size": 11119376
     },
     {
+      "name": "DiLink5-ADB-ANAS",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5-ADB-ANAS.apk",
+      "icon": "",
+      "package": "com.anas.dilink5adb",
+      "versionCode": 10,
+      "version": "1.9",
+      "note": "طريقة تفعيل ADB مجانا وتجاوز QR لسيارات ديلنك 5.0 و 5.1 \nFree active ADB for BYD Dilink 5.0/5.1 and QR bypass \n\n🎵 Here 📹\n\n. 🆓🔥",
+      "sha256": "7bc1b7c00a1cc8b9207d6846a33ec3d1f72191084843dc72795c7e9da6c6f540",
+      "size": 33167
+    },
+    {
       "name": "ZMD Car",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
       "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
       "package": "com.zmd.carhub",
-      "versionCode": 9,
-      "version": "0.9",
+      "versionCode": 10,
+      "version": "1.0",
       "note": "",
-      "sha256": "0dfb9381bfdf1c62ba731aa0cd5c33b9f03df0be40b94db341318d6cd8975cb3",
+      "sha256": "7cd32aed846c5df69629f90c17627c12f2f375c845ba477d6fa2b40baf7d7bdc",
       "size": 72793714
     }
   ]
