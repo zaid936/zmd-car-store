@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16 12:01",
+  "updated": "2026-11-16 12:06",
   "items": [
     {
       "name": "DiAuto",
@@ -14,10 +14,10 @@
       "name": "ZMD Car",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
       "package": "com.zmd.carhub",
-      "versionCode": 5,
-      "version": "0.5",
-      "sha256": "a4c72d3c035bef4271895562a5da8938b3dddcac95a18ad73994f51d784df36d",
-      "size": 72793698
+      "versionCode": 6,
+      "version": "0.6",
+      "sha256": "208fe6b9a50313689d74c28519e586e6dd59d355230f315c2b9c1d5723710880",
+      "size": 72793694
     }
   ]
 }
