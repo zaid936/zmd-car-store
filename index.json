@@ -1,9 +1,10 @@
 {
-  "updated": "2026-11-16 12:50",
+  "updated": "2026-11-16 13:00",
   "items": [
     {
       "name": "DiDiSong Toolbox",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DIDI_ADB_Translated_by_Devolt.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DIDI_ADB_Translated_by_Devolt.apk.icon.png",
       "package": "com.ddsong.bydbox",
       "versionCode": 10,
       "version": "1.2.1",
@@ -14,6 +15,7 @@
     {
       "name": "DiAuto",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiAuto-v0.3.9.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiAuto-v0.3.9.apk.icon.webp",
       "package": "com.andrerinas.headunitrevived",
       "versionCode": 109,
       "version": "0.3.9",
@@ -24,6 +26,7 @@
     {
       "name": "ZMD Car",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
       "package": "com.zmd.carhub",
       "versionCode": 7,
       "version": "0.7",
