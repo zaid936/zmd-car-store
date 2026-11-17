@@ -2,6 +2,20 @@
   "updated": "2026-11-17 13:42",
   "items": [
     {
+      "name": "Drama Live",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Drama_Live_13.0.3.apk",
+      "icon": "",
+      "package": "com.sneig.livedrama",
+      "versionCode": 185,
+      "version": "13.0.3",
+      "note": "دراما لايف لبث القنوات الفضائية\nكود التفعيل: ( ضغطة وحدة للنسخ)\nfgcode.org/202122\n\nDrama Live for Live channel \nActivation code: (only one tap to copy)\nfgcode.org/202122\n\n.\n.",
+      "sha256": "259077eec5eb05eabcda026b7a2e9c082ada912d553a8458784978673e613d06",
+      "size": 15363860,
+      "assetId": 758646964,
+      "added": "2026-11-17T10:42:38Z",
+      "pending": true
+    },
+    {
       "name": "Chrome",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/07Chrome__117.0.5938.60_.apk",
       "icon": "",
