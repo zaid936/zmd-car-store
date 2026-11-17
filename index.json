@@ -2,6 +2,20 @@
   "updated": "2026-11-17 13:46",
   "items": [
     {
+      "name": "Speaker",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/LkSpeaker-2.4.0-beta.apk",
+      "icon": "",
+      "package": "com.txl.speaker",
+      "versionCode": 7,
+      "version": "2.4.0-beta",
+      "note": ".\nLK speek\nUsing Audio Outside the Car \n\nاستخدام الصوت خارج السيارة\n\n\n.",
+      "sha256": "3cff023fbf99722fbeb63b472c157ed42b73242b0bb51ec08b9d41d0b63403d4",
+      "size": 13512326,
+      "assetId": 758659208,
+      "added": "2026-11-17T10:46:39Z",
+      "pending": true
+    },
+    {
       "name": "魔迪智声",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DOC-20260827-WA0090.apk",
       "icon": "",
