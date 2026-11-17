@@ -1,0 +1,60 @@
+name: Telegram channel
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "list | fetch | watch"
+        default: list
+      msg_id:
+        default: ""
+      caption:
+        default: ""
+      has_caption:
+        default: "0"
+  schedule:
+    - cron: "*/10 * * * *"   # auto-watch (does nothing while it is switched off)
+
+concurrency:
+  group: store-tg
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  tg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet telethon==1.36.0 cryptg
+      - id: tg
+        run: python .github/scripts/tg_cloud.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TG_SESSION: ${{ secrets.TG_SESSION }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_CHANNEL: ${{ secrets.TG_CHANNEL }}
+          ACTION: ${{ github.event_name == 'schedule' && 'watch' || inputs.action }}
+          MSG_ID: ${{ inputs.msg_id }}
+          CAPTION: ${{ inputs.caption }}
+          HAS_CAPTION: ${{ inputs.has_caption }}
+      - name: Save
+        run: |
+          git add -A tg notes.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "nothing to save"; exit 0; fi
+          git config user.name "zmd-store-bot"
+          git config user.email "zmd-store-bot@users.noreply.github.com"
+          git commit -m "Telegram: update"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 3; done
+      - name: Add to the store list
+        if: steps.tg.outputs.added != '0' && steps.tg.outputs.added != ''
+        run: gh workflow run index.yml --ref main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
