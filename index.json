@@ -2,6 +2,20 @@
   "updated": "2026-11-17 10:56",
   "items": [
     {
+      "name": "StradaOS",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/StradaOS-2.16.0.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/StradaOS-2.16.0.apk.icon.png",
+      "package": "com.stradaos.launcher",
+      "versionCode": 46,
+      "version": "2.16.0",
+      "note": ".\n🕹️🏪 سترادا او اس لانشر / للانظمة القديمة\n📱🏪 StradaOS launcher / For old dilink\n\n. 🆓🔥",
+      "sha256": "11875df8b1458f870f23c9c39bfb74e0b79f97782d53aa3f4ec8e09dacce9c88",
+      "size": 599784,
+      "assetId": 758150608,
+      "added": "2026-11-17T07:56:17Z",
+      "pending": true
+    },
+    {
       "name": "Tech VPN Pro",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Tech_VPN_Pro__Lifetime__4.4.7_by_ANiK555_enc.apk",
       "icon": "",
@@ -132,19 +146,6 @@
       "size": 74965253,
       "assetId": 758043792,
       "added": "2026-11-17T07:16:55Z"
-    },
-    {
-      "name": "StradaOS",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/StradaOS-2.16.0.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/StradaOS-2.16.0.apk.icon.png",
-      "package": "com.stradaos.launcher",
-      "versionCode": 46,
-      "version": "2.16.0",
-      "note": ".\n🕹️🏪 سترادا او اس لانشر / للانظمة القديمة\n📱🏪 StradaOS launcher / For old dilink\n\n. 🆓🔥",
-      "sha256": "11875df8b1458f870f23c9c39bfb74e0b79f97782d53aa3f4ec8e09dacce9c88",
-      "size": 599784,
-      "assetId": 757920709,
-      "added": "2026-11-17T06:29:57Z"
     },
     {
       "name": "DiAuto",
