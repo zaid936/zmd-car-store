@@ -1,89 +1,96 @@
 {
-  "updated": "2026-11-17 13:46",
+  "updated": "2026-11-17 13:48",
   "items": [
     {
       "name": "YouTube Pro",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YouTube_Pro.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YouTube_Pro.apk.icon.png",
       "package": "com.google.android.youtube.pro",
       "versionCode": 1,
       "version": "3.98",
-      "note": "YouTube Pro 😊\n\n\nv3.98\n\n\nنسخة يوتيوب يوفر مشاهدة بدون إعلانات وتشغيل الفيديو في الخلفية وتحميل الفيديوهات والشورتس والترجمات ودعم صورة داخل صورة مع أدوات تحكم وتخصيص متعددة وتجربة خفيفة وسلسة\n\nA YouTube version that offers ad free viewing background playback video downloads Shorts and subtitles with picture in picture support multiple controls and customization options and a lightweight smooth experience",
+      "note": "",
       "sha256": "0e420395a70a14a374762785a01036a96ea83ee3bee7181a3497387b5b47337f",
       "size": 6844811,
       "assetId": 758660041,
-      "added": "2026-11-17T10:46:56Z",
-      "pending": true
+      "added": "2026-11-17T10:46:53Z"
+    },
+    {
+      "name": "ZMD Car",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
+      "package": "com.zmd.carhub",
+      "versionCode": 23,
+      "version": "2.3",
+      "note": "",
+      "sha256": "2589690f05735732682236c3deffc6bd49729819569080bdcf86cfe57420ccea",
+      "size": 78837035,
+      "assetId": 758659789,
+      "added": "2026-11-17T10:46:48Z"
     },
     {
       "name": "Speaker",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/LkSpeaker-2.4.0-beta.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/LkSpeaker-2.4.0-beta.apk.icon.webp",
       "package": "com.txl.speaker",
       "versionCode": 7,
       "version": "2.4.0-beta",
-      "note": ".\nLK speek\nUsing Audio Outside the Car \n\nاستخدام الصوت خارج السيارة\n\n\n.",
+      "note": "",
       "sha256": "3cff023fbf99722fbeb63b472c157ed42b73242b0bb51ec08b9d41d0b63403d4",
       "size": 13512326,
       "assetId": 758659208,
-      "added": "2026-11-17T10:46:39Z",
-      "pending": true
+      "added": "2026-11-17T10:46:37Z"
     },
     {
       "name": "魔迪智声",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DOC-20260827-WA0090.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DOC-20260827-WA0090.apk.icon.png",
       "package": "com.byd.ckzs",
       "versionCode": 28,
       "version": "3.06.90",
-      "note": ".\nModispeak\n \nUsing Audio Outside the Car \n\nاستخدام الصوت خارج السيارة\n\n\n.",
+      "note": "",
       "sha256": "689b42d612515bf336ea7d9025fce46b5c5ec4b50e0cbde6aa41bd5986988616",
       "size": 10047686,
       "assetId": 758657807,
-      "added": "2026-11-17T10:46:10Z",
-      "pending": true
+      "added": "2026-11-17T10:46:08Z"
     },
     {
       "name": "SD Maid",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/SDMaid.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/SDMaid.apk.icon.png",
       "package": "eu.thedarken.sdm",
       "versionCode": 50602,
       "version": "5.6.2",
-      "note": ".\n\nتنظيف جذور الملفات المحذوفة في السيارة\n\nCleaning Up the Remnants of Deleted Files on the Car's System\n\n.",
+      "note": "",
       "sha256": "59b423d47dcc5100cb9f3f3f2f726da39ace9e6d698063f16a9cfc5761d3589d",
       "size": 8661332,
       "assetId": 758656498,
-      "added": "2026-11-17T10:45:47Z",
-      "pending": true
+      "added": "2026-11-17T10:45:45Z"
     },
     {
       "name": "Aurora Store",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD_AuroraStore.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD_AuroraStore.apk.icon.png",
       "package": "com.aurora.store.byd",
       "versionCode": 76,
       "version": "4.8.4-byd(1.0.0)",
-      "note": ".\n\nمتجر اورورا لتطبيقات السيارة مخصص لسيارات BYD \nAurora Car Apps Store for BYD Vehicles \n\n.",
+      "note": "",
       "sha256": "9879ea4415b7b068ef4f6e5c65512b651e29f101d2c4554d0039eb14b86d70a3",
       "size": 12405892,
       "assetId": 758655667,
-      "added": "2026-11-17T10:45:30Z",
-      "pending": true
+      "added": "2026-11-17T10:45:27Z"
     },
     {
       "name": "Translate On Screen Pro",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Translate.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Translate.apk.icon.webp",
       "package": "com.recognize_text.translate.screen",
       "versionCode": 2147483647,
       "version": "1.180",
-      "note": ".\n\n\nتطبيق لترجمة شاشة Ui من الصيني الى اي لغة اخرى، بكبسة زر فقط\nAn app that translates the UI from Chinese to any other language with just the press of a button\n\n.",
+      "note": "",
       "sha256": "dee9952816450054c358fecbe433a263900e1be94da2140dc5c23a37886d5f45",
       "size": 93410401,
       "assetId": 758654626,
-      "added": "2026-11-17T10:45:08Z",
-      "pending": true
+      "added": "2026-11-17T10:45:02Z"
     },
     {
       "name": "Liberar ADB",
@@ -123,19 +130,6 @@
       "size": 15363860,
       "assetId": 758646964,
       "added": "2026-11-17T10:42:35Z"
-    },
-    {
-      "name": "ZMD Car",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
-      "package": "com.zmd.carhub",
-      "versionCode": 22,
-      "version": "2.2",
-      "note": "",
-      "sha256": "f0cac069df04504c98f5a74c07ed0a38e14d69cf73eba072c96802500ca77a4c",
-      "size": 78837035,
-      "assetId": 758645999,
-      "added": "2026-11-17T10:42:17Z"
     },
     {
       "name": "Chrome",
