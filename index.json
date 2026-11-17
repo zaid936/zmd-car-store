@@ -1,6 +1,19 @@
 {
-  "updated": "2026-11-17 10:59",
+  "updated": "2026-11-17 11:06",
   "items": [
+    {
+      "name": "ZMD Car",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
+      "package": "com.zmd.carhub",
+      "versionCode": 19,
+      "version": "1.9",
+      "note": "",
+      "sha256": "eaadbfd5ac4965ce174b6908d006380bef9ad67c85032a4c4dae977c1c0c4c98",
+      "size": 75013015,
+      "assetId": 758177377,
+      "added": "2026-11-17T08:05:15Z"
+    },
     {
       "name": "iBYD",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/iBYD-v0.33-beta.apk",
@@ -156,19 +169,6 @@
       "size": 34554,
       "assetId": 758064503,
       "added": "2026-11-17T07:24:03Z"
-    },
-    {
-      "name": "ZMD Car",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
-      "package": "com.zmd.carhub",
-      "versionCode": 18,
-      "version": "1.8",
-      "note": "",
-      "sha256": "e39d4a7f3f29311b4806db36c1937968b753faeedca88c13db32712556c82587",
-      "size": 74965253,
-      "assetId": 758043792,
-      "added": "2026-11-17T07:16:55Z"
     },
     {
       "name": "DiAuto",
