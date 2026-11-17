@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-17 10:51",
+  "updated": "2026-11-17 10:52",
   "items": [
     {
       "name": "lepidvpn VPN",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/lepidvpn_VPN__Premium__17_by_ANiK555_enc.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/lepidvpn_VPN__Premium__17_by_ANiK555_enc.apk.icon.png",
       "package": "com.lepidvpn.app",
       "versionCode": 17,
       "version": "17",
@@ -12,8 +12,7 @@
       "sha256": "fb9c02eb806c712ef61799b3e8a820a634d58adca3b32b71cfc46abb8a917685",
       "size": 84440394,
       "assetId": 758138108,
-      "added": "2026-11-17T07:51:58Z",
-      "pending": true
+      "added": "2026-11-17T07:51:52Z"
     },
     {
       "name": "YouTube",
