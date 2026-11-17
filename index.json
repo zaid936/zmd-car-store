@@ -2,6 +2,20 @@
   "updated": "2026-11-17 13:45",
   "items": [
     {
+      "name": "Aurora Store",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD_AuroraStore.apk",
+      "icon": "",
+      "package": "com.aurora.store.byd",
+      "versionCode": 76,
+      "version": "4.8.4-byd(1.0.0)",
+      "note": ".\n\nمتجر اورورا لتطبيقات السيارة مخصص لسيارات BYD \nAurora Car Apps Store for BYD Vehicles \n\n.",
+      "sha256": "9879ea4415b7b068ef4f6e5c65512b651e29f101d2c4554d0039eb14b86d70a3",
+      "size": 12405892,
+      "assetId": 758655667,
+      "added": "2026-11-17T10:45:30Z",
+      "pending": true
+    },
+    {
       "name": "Translate On Screen Pro",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Translate.apk",
       "icon": "",
