@@ -2,6 +2,20 @@
   "updated": "2026-11-17 11:13",
   "items": [
     {
+      "name": "راديو العراق BYD",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD_Radio.apk",
+      "icon": "",
+      "package": "com.iraqhybridradio.byd",
+      "versionCode": 1,
+      "version": "0.1.0",
+      "note": "راديو اونلاين عراقي بأمتياز من تطورينا\nمخصص للسيارات الصينية\n\nبدون اعلانات\nبدون تقطيع\nعلى الانترنت الضعيف\nعلى اي نظام\nسلس جدا\n\nلمتابعة الشرح ( شاهد الفديو )\n\nالشكر الجزيل للاخ المطور فرقان على التعاون ❤️😍\n\n\n.",
+      "sha256": "5f7694832bd81beae90ef732cc63266a259a09a5261026a00536c1af5212e8d0",
+      "size": 6889860,
+      "assetId": 758201582,
+      "added": "2026-11-17T08:13:24Z",
+      "pending": true
+    },
+    {
       "name": "XEQ Equalizer",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/XEQ_v31.13.0_MOD.apk",
       "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/XEQ_v31.13.0_MOD.apk.icon.png",
