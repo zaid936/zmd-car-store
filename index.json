@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 10:56",
+  "updated": "2026-11-17 10:58",
   "items": [
+    {
+      "name": "iBYD",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/iBYD-v0.33-beta.apk",
+      "icon": "",
+      "package": "com.ibyd.app",
+      "versionCode": 840,
+      "version": "0.33-beta",
+      "note": "",
+      "sha256": "6106d841fa08e0d91aa9d9ca676abcefecfd51929d35d001a63f642e2d10a90e",
+      "size": 26835172,
+      "assetId": 758157221,
+      "added": "2026-11-17T07:58:37Z",
+      "pending": true
+    },
     {
       "name": "DiDiSong Toolbox",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DIDI_ADB_Translated_by_Devolt.apk",
