@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-17 14:51",
+  "updated": "2026-11-17 14:57",
   "items": [
     {
       "name": "ZMD Car",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
       "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
       "package": "com.zmd.carhub",
-      "versionCode": 29,
-      "version": "2.9",
+      "versionCode": 30,
+      "version": "3.0",
       "note": "",
-      "sha256": "5e5773b44c9cf918f7871be1351ab7a3f3975e96f3fb15bd98d55ab2ec814e10",
-      "size": 78861812,
-      "assetId": 758851680,
-      "added": "2026-11-17T11:49:39Z"
+      "sha256": "127c2bf6d068f8c1079c5cdf9c719eaaa008695a2465aab077f01dd50d293038",
+      "size": 78878196,
+      "assetId": 758871061,
+      "added": "2026-11-17T11:55:29Z"
     },
     {
       "name": "BYDMate",
