@@ -1,19 +1,6 @@
 {
-  "updated": "2026-11-17 11:12",
+  "updated": "2026-11-17 11:13",
   "items": [
-    {
-      "name": "رادیو BYD ایران",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD_Radio_Persian.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD_Radio_Persian.apk.icon.png",
-      "package": "com.persianradio.byd",
-      "versionCode": 1,
-      "version": "1.0.0",
-      "note": "رادیو آنلاین فارسی عالی از توسعه‌نیا\nمخصوص خودروهای چینی\n\nبدون تبلیغات\nبدون قطعی\nروی اینترنت ضعیف\nروی هر سیستمی\nخیلی روان\n\nبرای دیدن توضیحات (ویدیو را ببینید)\n\nتشکر فرقان از برادر توسعه‌دهنده فرقان برای همکاری ❤️😍\n.",
-      "sha256": "325790fdc14290cda6387dfb763ce56b0e007494913894493837509c8699244f",
-      "size": 6356770,
-      "assetId": 758197663,
-      "added": "2026-11-17T08:12:07Z"
-    },
     {
       "name": "XEQ Equalizer",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/XEQ_v31.13.0_MOD.apk",
