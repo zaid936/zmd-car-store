@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 11:17",
+  "updated": "2026-11-17 11:23",
   "items": [
+    {
+      "name": "YouTube Premium",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YouTube_Premium_v21.36.45__TraidMod.CoM_.apk",
+      "icon": "",
+      "package": "app.rvx.android.youtube",
+      "versionCode": 2147483647,
+      "version": "21.36.45",
+      "note": ".\n\nيوتيوب بريميوم YouTube Premium \n\n.",
+      "sha256": "58b802b1e7daa7f92ebc330c9de9cac8d2fb7d42e2c66fa0eba796345f060090",
+      "size": 207494522,
+      "assetId": 758230061,
+      "added": "2026-11-17T08:23:04Z",
+      "pending": true
+    },
     {
       "name": "YouTube Gold",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YouTube_Gold_v21.36.45__TraidMod.CoM_.apk",
