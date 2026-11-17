@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:35",
+  "updated": "2026-11-17 13:36",
   "items": [
+    {
+      "name": "Simple Radio",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Simple_Radio.apk",
+      "icon": "",
+      "package": "com.streema.simpleradio",
+      "versionCode": 821,
+      "version": "6.1.1",
+      "note": ".\n\nراديو اونلاين Onlin Radio FM \n\n.",
+      "sha256": "f4f78bc8788743674a51a9f1a60f722e51492c430ad0b46d8f28f134846eb777",
+      "size": 59789166,
+      "assetId": 758629390,
+      "added": "2026-11-17T10:36:50Z",
+      "pending": true
+    },
     {
       "name": "Picker Manager",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD-Picker-Manager-1.4.0.apk",
