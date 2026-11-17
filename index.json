@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17 08:19",
+  "updated": "2026-11-17 08:36",
   "items": [
     {
       "name": "Opera Mini",
@@ -40,7 +40,7 @@
     {
       "name": "DiLink5-ADB-ANAS",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5-ADB-ANAS.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5-ADB-ANAS.apk.icon.png",
       "package": "com.anas.dilink5adb",
       "versionCode": 10,
       "version": "1.9",
