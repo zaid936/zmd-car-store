@@ -60,7 +60,7 @@
     {
       "name": "TikTok",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/TikTok_v40.0.5__Platinum__arm7.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/TikTok_v40.0.5__Platinum__arm7.apk.icon-1794911928869.png",
       "package": "com.zhiliaoapp.musically",
       "versionCode": 2024000050,
       "version": "40.0.5",
