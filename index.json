@@ -2,6 +2,20 @@
   "updated": "2026-11-17 13:48",
   "items": [
     {
+      "name": "Netflix Premium",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Netflix_Premium_v9.81.0_Modded_by_Getmodpc.apk",
+      "icon": "",
+      "package": "com.getmodpc.nfpremium",
+      "versionCode": 64290,
+      "version": "9.81.0",
+      "note": ".\n\nالميزات المدفوعة مفتوحة\n● لا إعلانات\n● دقة 4K\n● لا يلزم تسجيل الدخول\n● المشاهدة مجانا\n● تعمل على جميع الأجهزة\n● ترجمات متعددة اللغات\n● مشغل داخلي (افتراضيًا)\n● لا توجد أجهزة تعقب أو إعلانات نشطة\n● استكشاف أفلام غير محدودة | أفلام أكثر من التطبيق الأصلي\n● يتطلب أندرويد 6.0 وما فوق\n\n𝗠𝗼𝗱 𝗜𝗻𝗳𝗼: Paid Features Unlocked\n● No ads\n● 4K resolution\n● No login required\n● Watching for free\n● Working all devices\n● Multi language subtitles\n● Internal player (by default)\n● No active trackers or advertisements\n● Explore unlimited movies | even more movies than the original app\n● Requires android 6.0 and up\n● CPUs arch: armeabi-v7a, arm64-v8a\n● Optimized and cleaned resources \n for fast loading.\n\n.",
+      "sha256": "2d6d840bfeb4d6fa55fbf81a300ee63ca905628817bc2b2cb83488940b9d2f09",
+      "size": 61758957,
+      "assetId": 758665276,
+      "added": "2026-11-17T10:48:48Z",
+      "pending": true
+    },
+    {
       "name": "YouTube Pro",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YouTube_Pro.apk",
       "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YouTube_Pro.apk.icon.png",
