@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:44",
+  "updated": "2026-11-17 13:45",
   "items": [
+    {
+      "name": "Translate On Screen Pro",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Translate.apk",
+      "icon": "",
+      "package": "com.recognize_text.translate.screen",
+      "versionCode": 2147483647,
+      "version": "1.180",
+      "note": ".\n\n\nتطبيق لترجمة شاشة Ui من الصيني الى اي لغة اخرى، بكبسة زر فقط\nAn app that translates the UI from Chinese to any other language with just the press of a button\n\n.",
+      "sha256": "dee9952816450054c358fecbe433a263900e1be94da2140dc5c23a37886d5f45",
+      "size": 93410401,
+      "assetId": 758654626,
+      "added": "2026-11-17T10:45:08Z",
+      "pending": true
+    },
     {
       "name": "Liberar ADB",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Liberar_ADB_Alx.apk",
