@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:33",
+  "updated": "2026-11-17 13:35",
   "items": [
+    {
+      "name": "Spotify",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Spotify_v9.0.44.478__Premium__New_fix.apk",
+      "icon": "",
+      "package": "com.spotify.music",
+      "versionCode": 2147483647,
+      "version": "9.0.44.478",
+      "note": ".\n\nسبوتيفاي بريميوم (تطبيق نغمات)\nSpotify Premium (music)\n\n.",
+      "sha256": "7c97c9bd1fcffea51279b54e591f10d228e429abcb526bda0386b46f0ee4af73",
+      "size": 115900446,
+      "assetId": 758624163,
+      "added": "2026-11-17T10:35:09Z",
+      "pending": true
+    },
     {
       "name": "TikTok",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/TikTok_v40.0.5__Platinum__arm7.apk",
