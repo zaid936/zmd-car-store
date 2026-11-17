@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 10:39",
+  "updated": "2026-11-17 10:41",
   "items": [
+    {
+      "name": "Assistant",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Assistant-1.0.6.7._DRM.apk",
+      "icon": "",
+      "package": "com.kangrio.byd.assistant",
+      "versionCode": 7,
+      "version": "1.0.6",
+      "note": "🎙️ مساعد جيميناي الصوتي\n🎙️ Gemini voice assistant \n\n👩‍💻 اكواد العمل / Command code:\n \nيتم اضافة هذا الكود الربط السيارة بالمساعد، بعد تشغيلها\nThis code is entered to pair the car with the assistant after it has been started\n.\n⤵️⤵️⤵️⤵️⤵️⤵️⤵️⤵️⤵️⤵️\n\n迪加执行SHELL[c2V0dGluZ3MgcHV0IHNlY3VyZSBhc3Npc3RhbnQgY29tLmdvb2dsZS5hbmRyb2lkLmdvb2dsZXF1aWNrc2VhcmNoYm94L2NvbS5nb29nbGUuYW5kcm9pZC52b2ljZWludGVyYWN0aW9uLkdzYVZvaWNlSW50ZXJhY3Rpb25TZXJ2aWNlCnNldHRpbmdzIHB1dCBzZWN1cmUgdm9pY2VfaW50ZXJhY3Rpb25fc2VydmljZSBjb20uZ29vZ2xlLmFuZHJvaWQuZ29vZ2xlcXVpY2tzZWFyY2hib3gvY29tLmdvb2dsZS5hbmRyb2lkLnZvaWNlaW50ZXJhY3Rpb24uR3NhVm9pY2VJbnRlcmFjdGlvblNlcnZpY2UK]\n﻿\nيتم اضافة هذا الكود، لغرض استماع السيارة الى كلامك..\nThis code is added so that the car can listen to what you say…\n.\n⤵️⤵️⤵️⤵️⤵️⤵️⤵️⤵️⤵️⤵️\n\n迪加执行SHELL[YW0gc3RhcnQgLW4gY29tLmthbmdyaW8uYnlkLmFzc2lzdGFudC8uU3RhcnRBY3Rpdml0eQ==]\n﻿\n\n\n✅الشكر موصول للاخوة الذين اقتبسنا منهم هذه التعليمات 🙏\n\n.",
+      "sha256": "cb0a24bd5b12a8ecbf8ef39d4c3f183abb45b93d19d70d9c9a181891f5127af1",
+      "size": 25379092,
+      "assetId": 758111663,
+      "added": "2026-11-17T07:41:29Z",
+      "pending": true
+    },
     {
       "name": "Google Play services",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Google_Play_services__23.48.15__040300-587865683__.apk",
