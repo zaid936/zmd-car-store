@@ -1,6 +1,19 @@
 {
-  "updated": "2026-11-17 14:58",
+  "updated": "2026-11-17 15:25",
   "items": [
+    {
+      "name": "ZMD Car",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
+      "package": "com.zmd.carhub",
+      "versionCode": 33,
+      "version": "3.3",
+      "note": "",
+      "sha256": "c8869a179dbb76857ee98344e9324ae9f637d4346d76da35479efbecddb9870e",
+      "size": 78878196,
+      "assetId": 758957398,
+      "added": "2026-11-17T12:22:27Z"
+    },
     {
       "name": "YouTube Music",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YM-6.31.55-2d.apk",
@@ -13,19 +26,6 @@
       "size": 57452116,
       "assetId": 758880782,
       "added": "2026-11-17T11:58:07Z"
-    },
-    {
-      "name": "ZMD Car",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
-      "icon": "",
-      "package": "com.zmd.carhub",
-      "versionCode": 30,
-      "version": "3.0",
-      "note": "",
-      "sha256": "127c2bf6d068f8c1079c5cdf9c719eaaa008695a2465aab077f01dd50d293038",
-      "size": 78878196,
-      "assetId": 758871061,
-      "added": "2026-11-17T11:55:29Z"
     },
     {
       "name": "BYDMate",
