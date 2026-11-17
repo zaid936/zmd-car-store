@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:05",
+  "updated": "2026-11-17 13:30",
   "items": [
+    {
+      "name": "Uptodown App Store",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/17Uptodown_App_Store__5.20_.apk",
+      "icon": "",
+      "package": "com.uptodown",
+      "versionCode": 520,
+      "version": "5.20",
+      "note": ".\n\nسوق تطبيقات الاندرويد اب تو داون\nUptodown store for Android apps\n\n..",
+      "sha256": "0868850e273f6e9048d3e32b8307bfbcf6121f44ffeff3946e5e9c43a25e9c62",
+      "size": 9548124,
+      "assetId": 758610950,
+      "added": "2026-11-17T10:30:19Z",
+      "pending": true
+    },
     {
       "name": "WhatsApp",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/WhatsApp.apk",
