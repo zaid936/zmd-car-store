@@ -1,6 +1,19 @@
 {
-  "updated": "2026-11-17 09:19",
+  "updated": "2026-11-17 09:21",
   "items": [
+    {
+      "name": "DiAuto",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiAuto-v0.3.9.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiAuto-v0.3.9.apk.icon.webp",
+      "package": "com.andrerinas.headunitrevived",
+      "versionCode": 109,
+      "version": "0.3.9",
+      "note": "",
+      "sha256": "e6858ea58d24f2f1290b243d76a1228420b3f648c21c7add99e811baec58a0f9",
+      "size": 11119376,
+      "assetId": 757895585,
+      "added": "2026-11-17T06:20:29Z"
+    },
     {
       "name": "BYD Assistant NG",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYDAssistantNG-1.1.0.10100999.-release-22102026174030.apk",
@@ -13,19 +26,6 @@
       "size": 2294762,
       "assetId": 757867207,
       "added": "2026-11-17T06:09:47Z"
-    },
-    {
-      "name": "DiAuto",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiAuto-v0.3.9.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiAuto-v0.3.9.apk.icon.webp",
-      "package": "com.andrerinas.headunitrevived",
-      "versionCode": 109,
-      "version": "0.3.9",
-      "note": "",
-      "sha256": "e6858ea58d24f2f1290b243d76a1228420b3f648c21c7add99e811baec58a0f9",
-      "size": 11119376,
-      "assetId": 757849319,
-      "added": "2026-11-17T06:02:24Z"
     },
     {
       "name": "DiLink5-ADB-ANAS",
