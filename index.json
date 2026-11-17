@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-17 11:26",
+  "updated": "2026-11-17 11:27",
   "items": [
     {
       "name": "microG Services",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/microG___bydautoiraq_.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/microG___bydautoiraq_.apk.icon.png",
       "package": "app.revanced.android.gms",
       "versionCode": 240913008,
       "version": "0.3.1.4.240913-hw",
@@ -12,8 +12,20 @@
       "sha256": "f0617066a4cd5948743ead351c53ef47e9d16dd7c8cbd0ef1126ea57aa3e9074",
       "size": 40286417,
       "assetId": 758242561,
-      "added": "2026-11-17T08:26:42Z",
-      "pending": true
+      "added": "2026-11-17T08:26:39Z"
+    },
+    {
+      "name": "ZMD Car",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
+      "package": "com.zmd.carhub",
+      "versionCode": 20,
+      "version": "2.0",
+      "note": "",
+      "sha256": "b6f23e47e42582e4b6e5510f1f6b08342f83c76660874e5cd7a160843ca54923",
+      "size": 75231237,
+      "assetId": 758240461,
+      "added": "2026-11-17T08:26:00Z"
     },
     {
       "name": "Stellar",
@@ -79,19 +91,6 @@
       "size": 8281531,
       "assetId": 758183000,
       "added": "2026-11-17T08:06:48Z"
-    },
-    {
-      "name": "ZMD Car",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
-      "package": "com.zmd.carhub",
-      "versionCode": 19,
-      "version": "1.9",
-      "note": "",
-      "sha256": "eaadbfd5ac4965ce174b6908d006380bef9ad67c85032a4c4dae977c1c0c4c98",
-      "size": 75013015,
-      "assetId": 758177377,
-      "added": "2026-11-17T08:05:15Z"
     },
     {
       "name": "iBYD",
