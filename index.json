@@ -2,6 +2,20 @@
   "updated": "2026-11-17 11:06",
   "items": [
     {
+      "name": "XEQ Equalizer",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/XEQ_v31.13.0_MOD.apk",
+      "icon": "",
+      "package": "com.frack.xeq",
+      "versionCode": 365,
+      "version": "31.13.0",
+      "note": ".\nXEQ Equalizer & Bass Booster\n قم بترقية الصوت على Android إلى مستوى احترافي! 🚀\n\nلم يعد هذا مجرد تطبيق معادل صوت - إنه أداة صوتية كاملة تحول أي مسار إلى إصدار رئيسي في الاستوديو. مثالي لأولئك الذين يرغبون في تحقيق أقصى استفادة من سماعات الرأس أو مكبرات الصوت الخاصة بهم.\n\n🎧 ما تعرف XEQ كيفية القيام به:\n🔊 معادل صوت من 10 قنوات: ضبط دقيق للصوت - من الارتفاعات الواضحة إلى الانخفاضات العميقة.\n\n🎶 معزز صوت الجهير القوي: اشعر بالصوت الجهير الغني والكامل الذي يجعل موسيقاك تنبض بالحياة.\n\n🔥 مضخم الصوت: صوت نظيف وكاسح بدون تشوهات.\n\n🛠️ الأدوات الاحترافية: أدوات مدمجة مثل Multiband Compressor و Limiter (الضاغط والمحدد) لعشاق الموسيقى.\n\n🔄 الإعدادات المسبقة الذكية: التحميل التلقائي للإعدادات لكل جهاز (بلوتوث، سماعات الرأس السلكية، مكبرات الصوت).\n\n✅ التوافق الكامل: يعمل بشكل مثالي مع Spotify وYouTube وApple Music وغيرهم من اللاعبين المشهورين.\n\nمع XEQ: تحكم بسيط، نتيجة احترافية. اشعر بالفرق!\n\n\n\n\n\n.",
+      "sha256": "97db364da8982d1b942ccf3f53c650927fa96c8eb0af8c925e89dc1273fa597d",
+      "size": 8281531,
+      "assetId": 758183000,
+      "added": "2026-11-17T08:06:50Z",
+      "pending": true
+    },
+    {
       "name": "ZMD Car",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
       "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
