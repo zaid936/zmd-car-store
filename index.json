@@ -1,61 +1,70 @@
 {
-  "updated": "2026-11-17 13:42",
+  "updated": "2026-11-17 13:44",
   "items": [
     {
       "name": "Liberar ADB",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Liberar_ADB_Alx.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Liberar_ADB_Alx.apk.icon.png",
       "package": "com.sentryev.adbunlock",
       "versionCode": 1,
       "version": "1.0",
-      "note": ".\n\nبديل ByPass لتخطي الباركود، وفتح ADB \nByPass Alternative for Bypassing Barcodes & Open ADB\n\n.",
+      "note": "",
       "sha256": "4eefb435a90d0a71ac929a77412c06d9b76ea7bf423bf91f9e4d387f652d4dad",
       "size": 118952,
       "assetId": 758647993,
-      "added": "2026-11-17T10:42:57Z",
-      "pending": true
+      "added": "2026-11-17T10:42:55Z"
     },
     {
       "name": "lumig",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/lumig-v2.2.5.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/lumig-v2.2.5.apk.icon.png",
       "package": "com.khalfeyti.wallpaper",
       "versionCode": 35,
       "version": "2.2.5",
-      "note": ".\n\nتغيير خليفات الشاشة الرئيسية\nCentral screen Wallpaper \n\n.",
+      "note": "",
       "sha256": "14d126b7beb2f4a48cf481df355f93738e71a9626aca106c0decb6820be3d111",
       "size": 6855766,
       "assetId": 758647711,
-      "added": "2026-11-17T10:42:52Z",
-      "pending": true
+      "added": "2026-11-17T10:42:49Z"
     },
     {
       "name": "Drama Live",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Drama_Live_13.0.3.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Drama_Live_13.0.3.apk.icon.png",
       "package": "com.sneig.livedrama",
       "versionCode": 185,
       "version": "13.0.3",
-      "note": "دراما لايف لبث القنوات الفضائية\nكود التفعيل: ( ضغطة وحدة للنسخ)\nfgcode.org/202122\n\nDrama Live for Live channel \nActivation code: (only one tap to copy)\nfgcode.org/202122\n\n.\n.",
+      "note": "",
       "sha256": "259077eec5eb05eabcda026b7a2e9c082ada912d553a8458784978673e613d06",
       "size": 15363860,
       "assetId": 758646964,
-      "added": "2026-11-17T10:42:38Z",
-      "pending": true
+      "added": "2026-11-17T10:42:35Z"
+    },
+    {
+      "name": "ZMD Car",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
+      "package": "com.zmd.carhub",
+      "versionCode": 22,
+      "version": "2.2",
+      "note": "",
+      "sha256": "f0cac069df04504c98f5a74c07ed0a38e14d69cf73eba072c96802500ca77a4c",
+      "size": 78837035,
+      "assetId": 758645999,
+      "added": "2026-11-17T10:42:17Z"
     },
     {
       "name": "Chrome",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/07Chrome__117.0.5938.60_.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/07Chrome__117.0.5938.60_.apk.icon.png",
       "package": "com.android.chrome",
       "versionCode": 593806021,
       "version": "117.0.5938.60",
-      "note": ".\n\nتطبيق كوكل كروم، متصفح كوكل يعمل مع مايكروجي\nChrome app for micro-g working \n\n.",
+      "note": "",
       "sha256": "74c34a2d730b486416f6a7262806c22dad751c60a195e7834558003b64296524",
       "size": 243779558,
       "assetId": 758645116,
-      "added": "2026-11-17T10:42:10Z",
-      "pending": true
+      "added": "2026-11-17T10:41:59Z"
     },
     {
       "name": "嘟嘟桌面PRO-比亚迪专享版",
@@ -64,12 +73,11 @@
       "package": "com.dudu.autoui",
       "versionCode": 1014020,
       "version": "比亚迪专享版1.014020",
-      "note": ".\n\nدودو لانشر ، نسخة ممتازة وسلسة\nDuDu launcher ( Good Version)\n\n.",
+      "note": "",
       "sha256": "50a7127f96e1679a1f7efc4b8e436d7258e25116570130edb3a7682f13eca654",
       "size": 78664683,
       "assetId": 758635626,
-      "added": "2026-11-17T10:38:41Z",
-      "pending": true
+      "added": "2026-11-17T10:38:36Z"
     },
     {
       "name": "Simple Radio",
@@ -78,26 +86,24 @@
       "package": "com.streema.simpleradio",
       "versionCode": 821,
       "version": "6.1.1",
-      "note": ".\n\nراديو اونلاين Onlin Radio FM \n\n.",
+      "note": "",
       "sha256": "f4f78bc8788743674a51a9f1a60f722e51492c430ad0b46d8f28f134846eb777",
       "size": 59789166,
       "assetId": 758629390,
-      "added": "2026-11-17T10:36:50Z",
-      "pending": true
+      "added": "2026-11-17T10:36:45Z"
     },
     {
       "name": "Picker Manager",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD-Picker-Manager-1.4.0.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD-Picker-Manager-1.4.0.apk.icon.png",
       "package": "com.alamri.pickermanager",
       "versionCode": 10,
       "version": "1.4.0",
-      "note": "..\n\nتقسيم الشاشة لسيارات ليوبارد والتي تأتي بفئة رقاقة 5.1\nSplit screen for LEOPARD and 5.1 Chipset \n\n..",
+      "note": "",
       "sha256": "5bf9ec38c7eaf19624bbb732770a0b64a56ddecfe6af463b1720a27de7e55860",
       "size": 5642877,
       "assetId": 758625103,
-      "added": "2026-11-17T10:35:22Z",
-      "pending": true
+      "added": "2026-11-17T10:35:20Z"
     },
     {
       "name": "Spotify",
@@ -106,12 +112,11 @@
       "package": "com.spotify.music",
       "versionCode": 2147483647,
       "version": "9.0.44.478",
-      "note": ".\n\nسبوتيفاي بريميوم (تطبيق نغمات)\nSpotify Premium (music)\n\n.",
+      "note": "",
       "sha256": "7c97c9bd1fcffea51279b54e591f10d228e429abcb526bda0386b46f0ee4af73",
       "size": 115900446,
       "assetId": 758624163,
-      "added": "2026-11-17T10:35:09Z",
-      "pending": true
+      "added": "2026-11-17T10:35:02Z"
     },
     {
       "name": "TikTok",
@@ -120,26 +125,24 @@
       "package": "com.zhiliaoapp.musically",
       "versionCode": 2024000050,
       "version": "40.0.5",
-      "note": ".\nتطبيق تيكوك بريميوم \nTikTok premium \n\n.",
+      "note": "",
       "sha256": "8f3cd43b480c4f5467051f66d13b34afa12fd8c5ca011a6001272d0bf90508c4",
       "size": 214237780,
       "assetId": 758619283,
-      "added": "2026-11-17T10:33:29Z",
-      "pending": true
+      "added": "2026-11-17T10:33:19Z"
     },
     {
       "name": "Uptodown App Store",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/17Uptodown_App_Store__5.20_.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/17Uptodown_App_Store__5.20_.apk.icon.png",
       "package": "com.uptodown",
       "versionCode": 520,
       "version": "5.20",
-      "note": ".\n\nسوق تطبيقات الاندرويد اب تو داون\nUptodown store for Android apps\n\n..",
+      "note": "",
       "sha256": "0868850e273f6e9048d3e32b8307bfbcf6121f44ffeff3946e5e9c43a25e9c62",
       "size": 9548124,
       "assetId": 758610950,
-      "added": "2026-11-17T10:30:19Z",
-      "pending": true
+      "added": "2026-11-17T10:30:17Z"
     },
     {
       "name": "WhatsApp",
@@ -205,19 +208,6 @@
       "size": 40286417,
       "assetId": 758242561,
       "added": "2026-11-17T08:26:39Z"
-    },
-    {
-      "name": "ZMD Car",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
-      "package": "com.zmd.carhub",
-      "versionCode": 20,
-      "version": "2.0",
-      "note": "",
-      "sha256": "b6f23e47e42582e4b6e5510f1f6b08342f83c76660874e5cd7a160843ca54923",
-      "size": 75231237,
-      "assetId": 758240461,
-      "added": "2026-11-17T08:26:00Z"
     },
     {
       "name": "Stellar",
