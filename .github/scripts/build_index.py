@@ -107,6 +107,33 @@ def icon_from_zip(path):
     return None, None
 
 
+def letter_icon(label):
+    """For apps that ship no icon: a coloured square with the app's first letter, so every app has one."""
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+        import io
+        ch = (label.strip() or "?")[0].upper()
+        colors = ["#3d8bfd", "#5fd3a4", "#f5a524", "#e5484d", "#8e4ec6", "#12a594", "#d6409f"]
+        bg = colors[sum(map(ord, label)) % len(colors)]
+        img = Image.new("RGBA", (192, 192), (0, 0, 0, 0))
+        d = ImageDraw.Draw(img)
+        d.rounded_rectangle((0, 0, 191, 191), radius=42, fill=bg)
+        font = None
+        for f in ("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "DejaVuSans-Bold.ttf"):
+            try:
+                font = ImageFont.truetype(f, 110)
+                break
+            except Exception:
+                pass
+        d.text((96, 100), ch, fill="white", font=font or ImageFont.load_default(), anchor="mm")
+        out = io.BytesIO()
+        img.save(out, "PNG")
+        return out.getvalue(), ".png"
+    except Exception as e:
+        print("  letter icon failed:", e)
+        return None, None
+
+
 def sha256(path):
     h = hashlib.sha256()
     with open(path, "rb") as f:
@@ -152,15 +179,13 @@ def main():
         # Unchanged: same asset id (a re-upload always gets a new id). Older entries have no id yet,
         # so for those the size has to match.
         same = old and (old.get("assetId") == a["id"] or (not old.get("assetId") and old.get("size") == a["size"]))
+        icon_ok = old and (old.get("icon") or "").rsplit("/", 1)[-1] in by_name
+        same = same and icon_ok
         if same:
             item = dict(old)
             item["assetId"] = a["id"]
             item["note"] = (notes.get(name, item.get("note")) or "").strip()
-            icon = (item.get("icon") or "").rsplit("/", 1)[-1]
-            if icon and icon in by_name:
-                keep.add(icon)
-            else:
-                item["icon"] = ""
+            keep.add(item["icon"].rsplit("/", 1)[-1])
             items.append(item)
             keep.add(name)
             print(f"= {name} (unchanged)")
@@ -177,6 +202,9 @@ def main():
             continue
         icon_url = ""
         idata, iext = app_icon(path)
+        if not idata:
+            print("  no icon inside the app, making one from its first letter")
+            idata, iext = letter_icon(info["label"] or os.path.splitext(name)[0])
         if idata:
             iname = name + ".icon" + iext
             for n2, a2 in list(by_name.items()):
