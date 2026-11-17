@@ -4,7 +4,7 @@
     {
       "name": "Stellar",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Stellar_abunarjis.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Stellar_abunarjis.apk.icon.webp",
       "package": "roro.stellar.manager",
       "versionCode": 100139,
       "version": "1.0.13",
@@ -12,8 +12,7 @@
       "sha256": "699861becde03981614285fdfd9d8e6b81c964b10316babd7364cd6465f6ca53",
       "size": 4610495,
       "assetId": 758237499,
-      "added": "2026-11-17T08:25:06Z",
-      "pending": true
+      "added": "2026-11-17T08:25:04Z"
     },
     {
       "name": "YouTube Premium",
