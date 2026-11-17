@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-17 11:30",
+  "updated": "2026-11-17 11:31",
   "items": [
     {
       "name": "Downloader",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/downloader-by--1-5-0-.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/downloader-by--1-5-0-.apk.icon.webp",
       "package": "com.esaba.downloader",
       "versionCode": 58,
       "version": "1.5.0-ForGoogleAndroidDevices",
@@ -12,8 +12,7 @@
       "sha256": "af4e08e540c87b34375a6bffd9387d06e618759cd68685f237f8b1a02e0bd83e",
       "size": 5995174,
       "assetId": 758255388,
-      "added": "2026-11-17T08:30:51Z",
-      "pending": true
+      "added": "2026-11-17T08:30:49Z"
     },
     {
       "name": "microG Services",
