@@ -2,6 +2,20 @@
   "updated": "2026-11-17 13:59",
   "items": [
     {
+      "name": "BYDMate",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYDMate-v3.9__1_.apk",
+      "icon": "",
+      "package": "com.bydmate.app",
+      "versionCode": 391,
+      "version": "3.9",
+      "note": "الاسطورة مَيَت BYDMate \n\nهو عبارة عن واجهة وسيطة تتصل مباشرة بنظام DiLink داخل السيارة وتستفيد من خدمات BYD الداخلية لقراءة بيانات السيارة، \n\nقراءات السيارة:\nنسبة الشحن SOC \nجهد البطارية\nقدرة الشحن/الاستهلاك\nدرجة حرارة البطارية\nسعة البطارية\nإذا كانت متاحة في السيارة SoH \nحالة الشحن\nحالة مسدس الشحن\nبيانات الخلايا\nأقل جهد خلية\nأعلى جهد خلية\nفرق الجهد بين الخلايا\nيحاول استخدام بيانات الطاقة من BMS/energydata، \n\nويحسب:\nالكهربائية المستهلكة kWh \nالمسافة\nالسرعة\nالطاقة أثناء الوقوف\nمتوسط الاستهلاك\nاتجاه الاستهلاك\nتكلفة الرحلة\nاستهلاك الرحلات السابقة\n\n⚠️ مهم جدا / يحتاج adb\n.",
+      "sha256": "922b8ef252416624d71a83c7f07259e058905fd010480a39a855b1310a45607c",
+      "size": 30584706,
+      "assetId": 758698360,
+      "added": "2026-11-17T10:59:57Z",
+      "pending": true
+    },
+    {
       "name": "VPN China",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/VPN_China_v1.118__Pro_.apk",
       "icon": "",
