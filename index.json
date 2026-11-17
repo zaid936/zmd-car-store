@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-17 10:27",
+  "updated": "2026-11-17 10:28",
   "items": [
     {
       "name": "Spotify",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Spotify-5.5.0-HeadUnit-test.22.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Spotify-5.5.0-HeadUnit-test.22.apk.icon.png",
       "package": "com.spotify.music",
       "versionCode": 95499,
       "version": "5.5.0.16251",
@@ -12,8 +12,7 @@
       "sha256": "e478389a92c73bb4d86f8ab3f2edc1344a66b1b5e314a1973779508586e8ee40",
       "size": 48424050,
       "assetId": 758075980,
-      "added": "2026-11-17T07:27:59Z",
-      "pending": true
+      "added": "2026-11-17T07:27:56Z"
     },
     {
       "name": "DiLink 5.0 Updater",
