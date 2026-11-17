@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 10:18",
+  "updated": "2026-11-17 10:24",
   "items": [
+    {
+      "name": "DiLink 5.0 Updater",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5_Updater_v1.0.1_EN.apk",
+      "icon": "",
+      "package": "com.mofang.dilinkupdater",
+      "versionCode": 101,
+      "version": "1.0.1",
+      "note": ".        🏍🏍🏍🏍🏍🏍🏍🏍\n\nالعربية:\nيمكنك الآن تحديث سيارتك إذا كانت من نظام Di (5.0/5.1/6.0) دون مسح رمز QR، فقط باستخدام التطبيق الجديد.\n⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️\nEnglish:\nYou can now update your car if it runs Di system (5.0/5.1/6.0) without scanning a QR code — using only the new app.\n⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️\n中文（简体）：\n如果你的车机系统是 Di（5.0/5.1/6.0），现在无需扫码即可升级，只需使用这款新工具。\n⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️\nTürkçe:\nAracınız Di (5.0/5.1/6.0) sistemindeyse, artık QR kod taramadan yalnızca yeni uygulamayı kullanarak güncelleyebilirsiniz.\n⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️\nRomână:\nÎți poți actualiza acum mașina dacă rulează sistemul Di (5.0/5.1/6.0) fără a scana un cod QR — folosind doar noua aplicație.\n⚡️⚡️⚡️⚡️⚡️⚡️⚡️⚡️\nفارسی:\nاکنون اگر خودروی شما سیستم Di (5.0/5.1/6.0) دارد، می‌توانید بدون اسکن کد QR و فقط با استفاده از اپلیکیشن جدید آن را به‌روزرسانی کنید.\n\n✅ @bydautoiraq",
+      "sha256": "7be673843a214265e8886f7d65ac06eb30bf9b5f562658c819368a4a0747ba01",
+      "size": 34554,
+      "assetId": 758064503,
+      "added": "2026-11-17T07:24:05Z",
+      "pending": true
+    },
     {
       "name": "ZMD Car",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
