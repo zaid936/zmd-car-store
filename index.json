@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:53",
+  "updated": "2026-11-17 13:55",
   "items": [
+    {
+      "name": "Maps",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/New_Maps.apk",
+      "icon": "",
+      "package": "app.revanced.android.apps.maps",
+      "versionCode": 1068022637,
+      "version": "25.16.03.747108139",
+      "note": "تحديث جديد \nقول ماب\nيتم تثبيته مع الحزمة كاملة\n\nGoogle Map \nIt must be installed with the complete package.\n\n.",
+      "sha256": "b8ff3e33fd99220ab3b6787a5b4407ef81f36a86893fbf18efa5dec411637b26",
+      "size": 218153450,
+      "assetId": 758684814,
+      "added": "2026-11-17T10:55:13Z",
+      "pending": true
+    },
     {
       "name": "ZMD Car",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
