@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 11:33",
+  "updated": "2026-11-17 12:15",
   "items": [
+    {
+      "name": "Breezy Weather",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Breezy_Weather.apk",
+      "icon": "",
+      "package": "org.breezyweather",
+      "versionCode": 60012,
+      "version": "6.0.12",
+      "note": ".\n\nتطبيق الطقس برييزي\nFor weather, Breezy app\n\n.",
+      "sha256": "bd1ef770865e40b66f21c896be8ecdf6383a018cbe778b57d5f1ee384e5d2260",
+      "size": 16823727,
+      "assetId": 758381144,
+      "added": "2026-11-17T09:15:06Z",
+      "pending": true
+    },
     {
       "name": "AEB Manager",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/AEB_Manager_V1.0_Dilink5.0_By_MK.apk",
