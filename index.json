@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:36",
+  "updated": "2026-11-17 13:38",
   "items": [
+    {
+      "name": "嘟嘟桌面PRO-比亚迪专享版",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DUDU_Launcher_Pro_AN.apk",
+      "icon": "",
+      "package": "com.dudu.autoui",
+      "versionCode": 1014020,
+      "version": "比亚迪专享版1.014020",
+      "note": ".\n\nدودو لانشر ، نسخة ممتازة وسلسة\nDuDu launcher ( Good Version)\n\n.",
+      "sha256": "50a7127f96e1679a1f7efc4b8e436d7258e25116570130edb3a7682f13eca654",
+      "size": 78664683,
+      "assetId": 758635626,
+      "added": "2026-11-17T10:38:41Z",
+      "pending": true
+    },
     {
       "name": "Simple Radio",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Simple_Radio.apk",
