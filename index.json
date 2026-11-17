@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:30",
+  "updated": "2026-11-17 13:33",
   "items": [
+    {
+      "name": "TikTok",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/TikTok_v40.0.5__Platinum__arm7.apk",
+      "icon": "",
+      "package": "com.zhiliaoapp.musically",
+      "versionCode": 2024000050,
+      "version": "40.0.5",
+      "note": ".\nتطبيق تيكوك بريميوم \nTikTok premium \n\n.",
+      "sha256": "8f3cd43b480c4f5467051f66d13b34afa12fd8c5ca011a6001272d0bf90508c4",
+      "size": 214237780,
+      "assetId": 758619283,
+      "added": "2026-11-17T10:33:29Z",
+      "pending": true
+    },
     {
       "name": "Uptodown App Store",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/17Uptodown_App_Store__5.20_.apk",
