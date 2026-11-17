@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:45",
+  "updated": "2026-11-17 13:46",
   "items": [
+    {
+      "name": "魔迪智声",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DOC-20260827-WA0090.apk",
+      "icon": "",
+      "package": "com.byd.ckzs",
+      "versionCode": 28,
+      "version": "3.06.90",
+      "note": ".\nModispeak\n \nUsing Audio Outside the Car \n\nاستخدام الصوت خارج السيارة\n\n\n.",
+      "sha256": "689b42d612515bf336ea7d9025fce46b5c5ec4b50e0cbde6aa41bd5986988616",
+      "size": 10047686,
+      "assetId": 758657807,
+      "added": "2026-11-17T10:46:10Z",
+      "pending": true
+    },
     {
       "name": "SD Maid",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/SDMaid.apk",
