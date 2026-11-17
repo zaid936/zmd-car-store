@@ -2,6 +2,20 @@
   "updated": "2026-11-17 13:42",
   "items": [
     {
+      "name": "Liberar ADB",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Liberar_ADB_Alx.apk",
+      "icon": "",
+      "package": "com.sentryev.adbunlock",
+      "versionCode": 1,
+      "version": "1.0",
+      "note": ".\n\nبديل ByPass لتخطي الباركود، وفتح ADB \nByPass Alternative for Bypassing Barcodes & Open ADB\n\n.",
+      "sha256": "4eefb435a90d0a71ac929a77412c06d9b76ea7bf423bf91f9e4d387f652d4dad",
+      "size": 118952,
+      "assetId": 758647993,
+      "added": "2026-11-17T10:42:57Z",
+      "pending": true
+    },
+    {
       "name": "lumig",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/lumig-v2.2.5.apk",
       "icon": "",
