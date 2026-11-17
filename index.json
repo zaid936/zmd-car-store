@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-17 10:31",
+  "updated": "2026-11-17 10:32",
   "items": [
     {
       "name": "Kinex",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/kinex.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/kinex.apk.icon.png",
       "package": "com.lexwah.kinex",
       "versionCode": 1,
       "version": "0.4.6",
@@ -12,8 +12,7 @@
       "sha256": "c9c51bb3a6e17380e4ab41fe1978b08df7cf176eceda1aec674abfa6f028a6bb",
       "size": 99173262,
       "assetId": 758086006,
-      "added": "2026-11-17T07:31:40Z",
-      "pending": true
+      "added": "2026-11-17T07:31:35Z"
     },
     {
       "name": "Spotify",
