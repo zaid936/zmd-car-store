@@ -1,47 +1,57 @@
 {
-  "updated": "2026-11-17 13:52",
+  "updated": "2026-11-17 13:53",
   "items": [
+    {
+      "name": "ZMD Car",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
+      "package": "com.zmd.carhub",
+      "versionCode": 24,
+      "version": "2.4",
+      "note": "",
+      "sha256": "aa2601cdd13bcfcf19396d5eb52aab3e48985480174d7fddc4a16c2182d27e55",
+      "size": 78837563,
+      "assetId": 758677232,
+      "added": "2026-11-17T10:52:23Z"
+    },
     {
       "name": "microG Services",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Nwe_microg.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Nwe_microg.apk.icon.png",
       "package": "app.revanced.android.gms",
       "versionCode": 250932004,
       "version": "0.3.13.2.250932",
-      "note": "تحديث جديد \nمايكرو جي\nيتم تثبيته مع الحزمة كاملة\n \nMicroG\nIt must be installed with the complete package.\n.",
+      "note": "",
       "sha256": "62119f040d629a9cd3225f280649a464936730c6466cafb5b9dd5ded14269a65",
       "size": 105561934,
       "assetId": 758675839,
-      "added": "2026-11-17T10:52:05Z",
-      "pending": true
+      "added": "2026-11-17T10:51:59Z"
     },
     {
       "name": "YouTube Premium",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YouTube_Premium_v21.12.525_DiLink2.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YouTube_Premium_v21.12.525_DiLink2.apk.icon.png",
       "package": "com.android.youtube.premium",
       "versionCode": 1561062964,
       "version": "21.12.524",
-      "note": ".\n\n\nYouTube_Premium \nOnly DiLink 2.0\n\nيوتيوب بريميوم\nفقط لديلنك 2\n\n\n.",
+      "note": "",
       "sha256": "168bb1275f30d6729261f48c248ffc53961524cefd0dce171958c16efc53b529",
       "size": 123999351,
       "assetId": 758670514,
-      "added": "2026-11-17T10:50:35Z",
-      "pending": true
+      "added": "2026-11-17T10:50:27Z"
     },
     {
       "name": "Netflix Premium",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Netflix_Premium_v9.81.0_Modded_by_Getmodpc.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Netflix_Premium_v9.81.0_Modded_by_Getmodpc.apk.icon.png",
       "package": "com.getmodpc.nfpremium",
       "versionCode": 64290,
       "version": "9.81.0",
-      "note": ".\n\nالميزات المدفوعة مفتوحة\n● لا إعلانات\n● دقة 4K\n● لا يلزم تسجيل الدخول\n● المشاهدة مجانا\n● تعمل على جميع الأجهزة\n● ترجمات متعددة اللغات\n● مشغل داخلي (افتراضيًا)\n● لا توجد أجهزة تعقب أو إعلانات نشطة\n● استكشاف أفلام غير محدودة | أفلام أكثر من التطبيق الأصلي\n● يتطلب أندرويد 6.0 وما فوق\n\n𝗠𝗼𝗱 𝗜𝗻𝗳𝗼: Paid Features Unlocked\n● No ads\n● 4K resolution\n● No login required\n● Watching for free\n● Working all devices\n● Multi language subtitles\n● Internal player (by default)\n● No active trackers or advertisements\n● Explore unlimited movies | even more movies than the original app\n● Requires android 6.0 and up\n● CPUs arch: armeabi-v7a, arm64-v8a\n● Optimized and cleaned resources \n for fast loading.\n\n.",
+      "note": "",
       "sha256": "2d6d840bfeb4d6fa55fbf81a300ee63ca905628817bc2b2cb83488940b9d2f09",
       "size": 61758957,
       "assetId": 758665276,
-      "added": "2026-11-17T10:48:48Z",
-      "pending": true
+      "added": "2026-11-17T10:48:43Z"
     },
     {
       "name": "YouTube Pro",
@@ -55,19 +65,6 @@
       "size": 6844811,
       "assetId": 758660041,
       "added": "2026-11-17T10:46:53Z"
-    },
-    {
-      "name": "ZMD Car",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
-      "package": "com.zmd.carhub",
-      "versionCode": 23,
-      "version": "2.3",
-      "note": "",
-      "sha256": "2589690f05735732682236c3deffc6bd49729819569080bdcf86cfe57420ccea",
-      "size": 78837035,
-      "assetId": 758659789,
-      "added": "2026-11-17T10:46:48Z"
     },
     {
       "name": "Speaker",
