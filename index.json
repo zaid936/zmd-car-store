@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:55",
+  "updated": "2026-11-17 13:57",
   "items": [
+    {
+      "name": "YouTube",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/New_YoutubePRO.apk",
+      "icon": "",
+      "package": "anddea.youtube",
+      "versionCode": 1552424384,
+      "version": "20.03.43",
+      "note": "تحديث جديد \nيوتيوب بريميوم\nيتم تثبيته مع الحزمة كاملة\n\nYouTube Premium \nIt must be installed with the complete package.\n\n.",
+      "sha256": "89b976a41b5050065c65407d18dc2bdcdbb6712bf5b7198bfc68f658a91b7142",
+      "size": 163268504,
+      "assetId": 758691300,
+      "added": "2026-11-17T10:57:31Z",
+      "pending": true
+    },
     {
       "name": "Maps",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/New_Maps.apk",
