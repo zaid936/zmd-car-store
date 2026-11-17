@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17 09:08",
+  "updated": "2026-11-17 09:10",
   "items": [
     {
       "name": "Opera Mini",
@@ -12,6 +12,18 @@
       "sha256": "9881bc058b9ef2a596d41007682451c1f7e2946fbfe0b75991e3b4170fcb6123",
       "size": 49167174,
       "assetId": 754568711
+    },
+    {
+      "name": "BYD Assistant NG",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYDAssistantNG-1.1.0.10100999.-release-22102026174030.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYDAssistantNG-1.1.0.10100999.-release-22102026174030.apk.icon.png",
+      "package": "com.bydassistantng",
+      "versionCode": 10100999,
+      "version": "1.1.0",
+      "note": "🎙\n\n🗣العربية: مساعد صوتي مجاني لسيارات DiLink 2 وDiLink 3، يعتمد على مفتاح API للذكاء الاصطناعي.\n\n🗣English: Free voice assistant for DiLink 2 and DiLink 3 vehicles, powered by an AI API key.\n\n🗣فارسی: دستیار صوتی رایگان برای خودروهای DiLink 2 و DiLink 3، مبتنی بر کلید API هوش مصنوعی.\n\n🗣Русский: Бесплатный голосовой помощник для автомобилей с DiLink 2 и DiLink 3 на основе API-ключа искусственного интеллекта.\n\n🗣中文： 适用于 DiLink 2 和 DiLink 3 车型的免费语音助手，基于人工智能 API 密钥。\n\n 🆕🆕🆕🆕🆕🆕🆕🆕🆕🆕🆕\n.",
+      "sha256": "d0b546f17a4a8f0051ac4edbe91c7434bf80678671ed30e6e0e7bcbf1fdb3fae",
+      "size": 2294762,
+      "assetId": 757867207
     },
     {
       "name": "DiAuto",
