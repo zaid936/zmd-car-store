@@ -4,7 +4,7 @@
     {
       "name": "Assistant",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Assistant-1.0.6.7._DRM.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Assistant-1.0.6.7._DRM.apk.icon.webp",
       "package": "com.kangrio.byd.assistant",
       "versionCode": 7,
       "version": "1.0.6",
@@ -12,8 +12,7 @@
       "sha256": "cb0a24bd5b12a8ecbf8ef39d4c3f183abb45b93d19d70d9c9a181891f5127af1",
       "size": 25379092,
       "assetId": 758111663,
-      "added": "2026-11-17T07:41:29Z",
-      "pending": true
+      "added": "2026-11-17T07:41:25Z"
     },
     {
       "name": "Google Play services",
