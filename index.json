@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 10:47",
+  "updated": "2026-11-17 10:51",
   "items": [
+    {
+      "name": "lepidvpn VPN",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/lepidvpn_VPN__Premium__17_by_ANiK555_enc.apk",
+      "icon": "",
+      "package": "com.lepidvpn.app",
+      "versionCode": 17,
+      "version": "17",
+      "note": "● شبكة VPN الخاصة بـ lepidvpn \n(إصدار مميز)\n📶 📶 📶 📶 📶 📶 📶 📶\n● البنية: جهاز ARM64\n● الإصدار: 17 (مستقر)\n\n❏ نظرة عامة:\nاحمِ خصوصيتك على الإنترنت واستمتع بإمكانية الوصول إلى الإنترنت دون قيود.\n\n❏ معلومات مختصرة:\n● الإصدار المميز مفعل.\n● لا مزيد من الإعلانات.\n● تم إزالة الإعلانات وأكواد التصحيح.\n● رسوم متحركة أسرع لفتح التطبيق.\n● تمت إزالة الملفات غير الضرورية.\n● مُحسّن بشكل جيد.\n.",
+      "sha256": "fb9c02eb806c712ef61799b3e8a820a634d58adca3b32b71cfc46abb8a917685",
+      "size": 84440394,
+      "assetId": 758138108,
+      "added": "2026-11-17T07:51:58Z",
+      "pending": true
+    },
     {
       "name": "YouTube",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Youtube_BYDhelp.apk",
