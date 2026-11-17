@@ -46,7 +46,7 @@
     {
       "name": "Spotify",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Spotify_v9.0.44.478__Premium__New_fix.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Spotify_v9.0.44.478__Premium__New_fix.apk.icon-1794911937122.jpg",
       "package": "com.spotify.music",
       "versionCode": 2147483647,
       "version": "9.0.44.478",
