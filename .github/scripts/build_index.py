@@ -234,6 +234,12 @@ def main():
     # Newest upload first: that's the order the car app shows them in.
     items.sort(key=lambda it: it.get("added", ""), reverse=True)
 
+    # Half-finished uploads (".part-" files) older than an hour.
+    now = datetime.now(timezone.utc)
+    for n2, a2 in by_name.items():
+        if ".part-" in n2 and now - datetime.fromisoformat(a2["created_at"].replace("Z", "+00:00")) > timedelta(hours=1):
+            req("DELETE", f"{API}/repos/{OWNER_REPO}/releases/assets/{a2['id']}")
+
     # Icons left behind by deleted apps.
     for n2, a2 in by_name.items():
         if ".icon." in n2 and n2 not in keep:

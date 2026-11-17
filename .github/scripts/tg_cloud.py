@@ -166,15 +166,23 @@ async def fetch_one(c, msg_id, caption=None):
 
     await c.download_media(msg, file=path, progress_callback=prog)
     report(key, True, stage="upload", pct=0, done=False, **base)
-    rid, assets = release()
-    if name in assets:
-        gh("DELETE", f"/repos/{REPO}/releases/assets/{assets[name]['id']}")
-    s, d = upload_stream(f"{UPLOADS}/repos/{REPO}/releases/{rid}/assets?name={urllib.parse.quote(name)}", path,
+    rid, _ = release()
+    # Temporary name first; the old version is replaced only after the new one fully arrived.
+    import time
+    tmp = f"{name}.part-{int(time.time())}"
+    s, d = upload_stream(f"{UPLOADS}/repos/{REPO}/releases/{rid}/assets?name={urllib.parse.quote(tmp)}", path,
                          lambda sent, tot: report(key, stage="upload", pct=int(sent * 100 / tot), done=False, **base))
     os.remove(path)
     if s not in (200, 201):
         print(f"upload of {name} failed: {s} {d}")
         report(key, True, stage="failed", done=True, ok=False, error=f"GitHub رفض ({s})", **base)
+        return False
+    _, assets = release()
+    if name in assets:
+        gh("DELETE", f"/repos/{REPO}/releases/assets/{assets[name]['id']}")
+    s2, _ = gh("PATCH", f"/repos/{REPO}/releases/assets/{d['id']}", {"name": name})
+    if s2 != 200:
+        report(key, True, stage="failed", done=True, ok=False, error=f"ما تبدّل اسمه ({s2})", **base)
         return False
     notes = load("notes.json", {})
     notes[name] = caption
