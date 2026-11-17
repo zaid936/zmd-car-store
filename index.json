@@ -1,18 +1,6 @@
 {
-  "updated": "2026-11-17 09:10",
+  "updated": "2026-11-17 09:15",
   "items": [
-    {
-      "name": "Opera Mini",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/base.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/base.apk.icon.webp",
-      "package": "com.opera.mini.native",
-      "versionCode": 999901499,
-      "version": "99.6.2254.2363",
-      "note": ".\n\nمتصفح اوبرا\n\nتعيين هذا المتصفح كمتصفح افتراضي داخل سيارتك، بدلا من متصفح بايدو الصيني \nلمشاهدة طريقة العمل (اضغط هنا) \n\nامر التفعيل من داخل الخنفساء\n(ضغطة واحدة لنسخ الامر)\n\ncmd role add-role-holder --user 0 android.app.role.BROWSER com.opera.mini.native\n﻿\n_________ \n\nOpera Browser\n\nSet this browser as the default browser inside your car, instead of the Chinese Baidu browser\nTo watch how it works (click here)\n\nActivation command from inside Beetle:\n(One tap to copy)\ncmd role add-role-holder --user 0 android.app.role.BROWSER com.opera.mini.native\n﻿\n.",
-      "sha256": "9881bc058b9ef2a596d41007682451c1f7e2946fbfe0b75991e3b4170fcb6123",
-      "size": 49167174,
-      "assetId": 754568711
-    },
     {
       "name": "BYD Assistant NG",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYDAssistantNG-1.1.0.10100999.-release-22102026174030.apk",
@@ -23,7 +11,8 @@
       "note": "🎙\n\n🗣العربية: مساعد صوتي مجاني لسيارات DiLink 2 وDiLink 3، يعتمد على مفتاح API للذكاء الاصطناعي.\n\n🗣English: Free voice assistant for DiLink 2 and DiLink 3 vehicles, powered by an AI API key.\n\n🗣فارسی: دستیار صوتی رایگان برای خودروهای DiLink 2 و DiLink 3، مبتنی بر کلید API هوش مصنوعی.\n\n🗣Русский: Бесплатный голосовой помощник для автомобилей с DiLink 2 и DiLink 3 на основе API-ключа искусственного интеллекта.\n\n🗣中文： 适用于 DiLink 2 和 DiLink 3 车型的免费语音助手，基于人工智能 API 密钥。\n\n 🆕🆕🆕🆕🆕🆕🆕🆕🆕🆕🆕\n.",
       "sha256": "d0b546f17a4a8f0051ac4edbe91c7434bf80678671ed30e6e0e7bcbf1fdb3fae",
       "size": 2294762,
-      "assetId": 757867207
+      "assetId": 757867207,
+      "added": "2026-11-17T06:09:47Z"
     },
     {
       "name": "DiAuto",
@@ -35,19 +24,8 @@
       "note": "",
       "sha256": "e6858ea58d24f2f1290b243d76a1228420b3f648c21c7add99e811baec58a0f9",
       "size": 11119376,
-      "assetId": 757849319
-    },
-    {
-      "name": "DiDiSong Toolbox",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DIDI_ADB_Translated_by_Devolt.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DIDI_ADB_Translated_by_Devolt.apk.icon.png",
-      "package": "com.ddsong.bydbox",
-      "versionCode": 10,
-      "version": "1.2.1",
-      "note": "طريقة تفعيل ADB مجانا وتجاوز QR لسيارات ديلنك 3.0\nFree active ADB for BYD Dilink 3.0 and QR bypass \n\n🇺🇦 Here 🎥 شاهد فيديو العمل \n\n.🆓🔥",
-      "sha256": "99c8519d3fa134e2a643007ac69f1bec500dcc667b00a4c9afd02e0f048acfc2",
-      "size": 3479036,
-      "assetId": 754574345
+      "assetId": 757849319,
+      "added": "2026-11-17T06:02:24Z"
     },
     {
       "name": "DiLink5-ADB-ANAS",
@@ -59,7 +37,8 @@
       "note": "طريقة تفعيل ADB مجانا وتجاوز QR لسيارات ديلنك 5.0 و 5.1 \nFree active ADB for BYD Dilink 5.0/5.1 and QR bypass \n\n🎵 Here 📹\n\n. 🆓🔥",
       "sha256": "7bc1b7c00a1cc8b9207d6846a33ec3d1f72191084843dc72795c7e9da6c6f540",
       "size": 33167,
-      "assetId": 757848406
+      "assetId": 757848406,
+      "added": "2026-11-17T06:02:02Z"
     },
     {
       "name": "StradaOS",
@@ -71,7 +50,8 @@
       "note": ".\n🕹️🏪 سترادا او اس لانشر / للانظمة القديمة\n📱🏪 StradaOS launcher / For old dilink\n\n. 🆓🔥",
       "sha256": "11875df8b1458f870f23c9c39bfb74e0b79f97782d53aa3f4ec8e09dacce9c88",
       "size": 599784,
-      "assetId": 757745436
+      "assetId": 757745436,
+      "added": "2026-11-17T05:16:06Z"
     },
     {
       "name": "ZMD Car",
@@ -83,7 +63,34 @@
       "note": "",
       "sha256": "aa35c72f206f1e00aeb944895b3d8928137ec9c05c727a4b72f2bef15d8e5f85",
       "size": 72793750,
-      "assetId": 754575478
+      "assetId": 754575478,
+      "added": "2026-11-16T11:21:30Z"
+    },
+    {
+      "name": "DiDiSong Toolbox",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DIDI_ADB_Translated_by_Devolt.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DIDI_ADB_Translated_by_Devolt.apk.icon.png",
+      "package": "com.ddsong.bydbox",
+      "versionCode": 10,
+      "version": "1.2.1",
+      "note": "طريقة تفعيل ADB مجانا وتجاوز QR لسيارات ديلنك 3.0\nFree active ADB for BYD Dilink 3.0 and QR bypass \n\n🇺🇦 Here 🎥 شاهد فيديو العمل \n\n.🆓🔥",
+      "sha256": "99c8519d3fa134e2a643007ac69f1bec500dcc667b00a4c9afd02e0f048acfc2",
+      "size": 3479036,
+      "assetId": 754574345,
+      "added": "2026-11-16T11:21:04Z"
+    },
+    {
+      "name": "Opera Mini",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/base.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/base.apk.icon.webp",
+      "package": "com.opera.mini.native",
+      "versionCode": 999901499,
+      "version": "99.6.2254.2363",
+      "note": ".\n\nمتصفح اوبرا\n\nتعيين هذا المتصفح كمتصفح افتراضي داخل سيارتك، بدلا من متصفح بايدو الصيني \nلمشاهدة طريقة العمل (اضغط هنا) \n\nامر التفعيل من داخل الخنفساء\n(ضغطة واحدة لنسخ الامر)\n\ncmd role add-role-holder --user 0 android.app.role.BROWSER com.opera.mini.native\n﻿\n_________ \n\nOpera Browser\n\nSet this browser as the default browser inside your car, instead of the Chinese Baidu browser\nTo watch how it works (click here)\n\nActivation command from inside Beetle:\n(One tap to copy)\ncmd role add-role-holder --user 0 android.app.role.BROWSER com.opera.mini.native\n﻿\n.",
+      "sha256": "9881bc058b9ef2a596d41007682451c1f7e2946fbfe0b75991e3b4170fcb6123",
+      "size": 49167174,
+      "assetId": 754568711,
+      "added": "2026-11-16T11:19:00Z"
     }
   ]
 }
