@@ -180,7 +180,8 @@ def main():
         # so for those the size has to match.
         same = old and (old.get("assetId") == a["id"] or (not old.get("assetId") and old.get("size") == a["size"]))
         icon_ok = old and (old.get("icon") or "").rsplit("/", 1)[-1] in by_name
-        same = same and icon_ok
+        # Entries added instantly by the upload page / Telegram job are "pending": read them properly once.
+        same = same and icon_ok and not old.get("pending")
         if same:
             item = dict(old)
             item["assetId"] = a["id"]

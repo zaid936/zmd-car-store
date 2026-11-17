@@ -129,6 +129,58 @@ async def listing(c):
     return out
 
 
+def badging(path):
+    """package / version / label with Google's aapt (already on GitHub's machines)."""
+    import glob, subprocess, hashlib
+    info = {"package": "", "versionCode": 0, "version": "", "label": ""}
+    tools = sorted(glob.glob(os.path.join(os.environ.get("ANDROID_HOME", "/usr/local/lib/android/sdk"), "build-tools", "*", "aapt")))
+    if tools:
+        out = subprocess.run([tools[-1], "dump", "badging", path], capture_output=True, text=True).stdout
+        m = re.search(r"package: name='([^']+)' versionCode='(\d+)' versionName='([^']*)'", out)
+        if m:
+            info.update(package=m.group(1), versionCode=int(m.group(2)), version=m.group(3))
+        m = re.search(r"application-label:'([^']*)'", out)
+        if m:
+            info["label"] = m.group(1)
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1 << 20), b""):
+            h.update(chunk)
+    info["sha256"] = h.hexdigest()
+    return info
+
+
+def quick_index(name, asset_id, size, info, note):
+    """Put the app at the top of index.json right away; the list job adds its icon a little later."""
+    import base64, time
+    from datetime import datetime, timedelta, timezone
+    for attempt in range(4):
+        s, d = gh("GET", f"/repos/{REPO}/contents/index.json?ref=main")
+        data = json.loads(base64.b64decode(d["content"]).decode("utf-8-sig")) if s == 200 else {"items": []}
+        items = data.get("items", [])
+        old = next((it for it in items if it["url"].rsplit("/", 1)[-1] == name), None) or               next((it for it in items if info["package"] and it.get("package") == info["package"]), None)
+        item = {
+            "name": info["label"] or (old or {}).get("name") or os.path.splitext(name)[0],
+            "url": f"https://github.com/{REPO}/releases/download/{TAG}/{name}",
+            "icon": (old or {}).get("icon", "") if old and old["url"].rsplit("/", 1)[-1] == name else "",
+            "package": info["package"], "versionCode": info["versionCode"], "version": info["version"],
+            "note": note, "sha256": info["sha256"], "size": size, "assetId": asset_id,
+            "added": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "pending": True,
+        }
+        data["items"] = [item] + [it for it in items if it["url"].rsplit("/", 1)[-1] != name]
+        data["updated"] = (datetime.now(timezone.utc) + timedelta(hours=3)).strftime("%Y-%m-%d %H:%M")
+        body = {"message": f"Add {name} (icon follows)", "branch": "main",
+                "content": base64.b64encode(json.dumps(data, ensure_ascii=False, indent=2).encode()).decode()}
+        if s == 200:
+            body["sha"] = d["sha"]
+        s2, _ = gh("PUT", f"/repos/{REPO}/contents/index.json", body)
+        if s2 in (200, 201):
+            return True
+        time.sleep(1)
+    return False
+
+
 def release():
     s, rel = gh("GET", f"/repos/{REPO}/releases/tags/{TAG}")
     if s != 200:
@@ -170,6 +222,11 @@ async def fetch_one(c, msg_id, caption=None):
     # Temporary name first; the old version is replaced only after the new one fully arrived.
     import time
     tmp = f"{name}.part-{int(time.time())}"
+    info = badging(path)
+    if info["package"] == "com.shihab.diplay":
+        os.remove(path)
+        report(key, True, stage="failed", done=True, ok=False, error="DiPlay يبقى داخل برنامج ZMD Car", **base)
+        return False
     s, d = upload_stream(f"{UPLOADS}/repos/{REPO}/releases/{rid}/assets?name={urllib.parse.quote(tmp)}", path,
                          lambda sent, tot: report(key, stage="upload", pct=int(sent * 100 / tot), done=False, **base))
     os.remove(path)
@@ -184,10 +241,13 @@ async def fetch_one(c, msg_id, caption=None):
     if s2 != 200:
         report(key, True, stage="failed", done=True, ok=False, error=f"ما تبدّل اسمه ({s2})", **base)
         return False
+    report(key, True, stage="listing", pct=100, done=False, **base)
     notes = load("notes.json", {})
     notes[name] = caption
     save("notes.json", notes)
-    report(key, True, stage="listing", pct=100, done=False, **base)
+    if quick_index(name, d["id"], size, info, caption):
+        report(key, True, stage="done", pct=100, done=True, ok=True, **base)
+        print(f"  {name} is in the store list now (icon follows)")
     print(f"+ {name} is in the store")
     return True
 

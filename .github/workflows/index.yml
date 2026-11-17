@@ -24,14 +24,20 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install --quiet androguard==4.1.2 pillow==11.0.0
-      - run: python .github/scripts/build_index.py
+      # Build and save. If index.json changed on GitHub meanwhile (an app was just added by the
+      # upload page), start again from the newest version so nothing is lost.
+      - name: Build and save the list
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Save index.json
         run: |
-          if git diff --quiet index.json; then echo "nothing to save"; exit 0; fi
           git config user.name "zmd-store-bot"
           git config user.email "zmd-store-bot@users.noreply.github.com"
-          git add index.json
-          git commit -m "Update store index"
-          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 3; done
+          for i in 1 2 3 4; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python .github/scripts/build_index.py
+            if git diff --quiet index.json; then echo "nothing to save"; exit 0; fi
+            git add index.json && git commit -qm "Update store index"
+            if git push -q origin HEAD:main; then exit 0; fi
+            echo "index.json changed meanwhile, building again"; sleep 2
+          done
+          exit 1
