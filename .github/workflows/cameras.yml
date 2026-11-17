@@ -1,0 +1,43 @@
+name: Update speed cameras
+
+# Rebuilds cameras.json (every speed camera in Iraq from OpenStreetMap, plus the hand-kept
+# official list in tools/cameras/cameras-official.json) and puts it on the "maps" release, where
+# ZMD Car checks for it once a day. Runs every Friday, after an edit of the official list, or by hand.
+on:
+  schedule:
+    - cron: "30 2 * * 5"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [tools/cameras/**]
+
+concurrency:
+  group: cameras
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  cameras:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet "osmium>=3.7,<5"
+      - name: Download Iraq from OpenStreetMap (Geofabrik)
+        run: curl -fsSL --retry 3 -o iraq.osm.pbf https://download.geofabrik.de/asia/iraq-latest.osm.pbf
+      - name: Build cameras.json
+        run: python tools/cameras/make_cameras.py --pbf iraq.osm.pbf --official tools/cameras/cameras-official.json --out cameras.json
+      - name: Upload when something changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release download maps -p cameras.json -O old.json --clobber 2>/dev/null || echo '{}' > old.json
+          same=$(python -c "import json; a=json.load(open('old.json')); b=json.load(open('cameras.json')); print(int(a.get('cameras')==b.get('cameras') and a.get('zones')==b.get('zones')))")
+          if [ "$same" = "1" ]; then echo "No change in the cameras list."; exit 0; fi
+          gh release upload maps cameras.json --clobber
+          echo "Uploaded $(python -c "import json; print(len(json.load(open('cameras.json'))['cameras']))") cameras."

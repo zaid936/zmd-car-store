@@ -1,0 +1,24 @@
+{
+  "_about": "Hand-kept list for ZMD Car: roads the traffic directorate announced as radar-monitored, and camera points whose exact place is known. Edit and the weekly job merges it into cameras.json. Zones are matched by road name inside their box (south, west, north, east).",
+  "zones": [
+    {
+      "id": "bgd-qasim",
+      "name": "طريق محمد القاسم للمرور السريع",
+      "match": ["محمد القاسم"],
+      "bbox": [33.20, 44.33, 33.42, 44.56],
+      "lanes": [80, 100, 120, 120],
+      "max": 120,
+      "source": "مديرية المرور العامة، إعلان 12/3/2024"
+    },
+    {
+      "id": "bgd-yusufiya",
+      "name": "طريق اليوسفية للمرور السريع (سريع الدورة)",
+      "match": ["اليوسفية", "سريع الدورة"],
+      "bbox": [32.95, 44.25, 33.30, 44.50],
+      "lanes": [80, 100, 120, 120],
+      "max": 120,
+      "source": "مديرية المرور العامة، إعلان 12/3/2024"
+    }
+  ],
+  "cameras": []
+}
