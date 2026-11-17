@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 12:15",
+  "updated": "2026-11-17 13:04",
   "items": [
+    {
+      "name": "WhatsApp",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/WhatsApp.apk",
+      "icon": "",
+      "package": "com.whatsapp",
+      "versionCode": 262607310,
+      "version": "2.26.26.73",
+      "note": ".\n\nتطبيق واتساب  WhatsApp \n\n.",
+      "sha256": "1da69b3bc28b9f072cce5800bd195e68a856fe696ab9a86ebe3726de086ecae4",
+      "size": 70566164,
+      "assetId": 758534447,
+      "added": "2026-11-17T10:04:46Z",
+      "pending": true
+    },
     {
       "name": "Breezy Weather",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Breezy_Weather.apk",
