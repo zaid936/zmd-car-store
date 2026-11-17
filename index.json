@@ -2,6 +2,20 @@
   "updated": "2026-11-17 13:45",
   "items": [
     {
+      "name": "SD Maid",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/SDMaid.apk",
+      "icon": "",
+      "package": "eu.thedarken.sdm",
+      "versionCode": 50602,
+      "version": "5.6.2",
+      "note": ".\n\nتنظيف جذور الملفات المحذوفة في السيارة\n\nCleaning Up the Remnants of Deleted Files on the Car's System\n\n.",
+      "sha256": "59b423d47dcc5100cb9f3f3f2f726da39ace9e6d698063f16a9cfc5761d3589d",
+      "size": 8661332,
+      "assetId": 758656498,
+      "added": "2026-11-17T10:45:47Z",
+      "pending": true
+    },
+    {
       "name": "Aurora Store",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD_AuroraStore.apk",
       "icon": "",
