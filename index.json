@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-17 11:06",
+  "updated": "2026-11-17 11:07",
   "items": [
     {
       "name": "XEQ Equalizer",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/XEQ_v31.13.0_MOD.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/XEQ_v31.13.0_MOD.apk.icon.png",
       "package": "com.frack.xeq",
       "versionCode": 365,
       "version": "31.13.0",
@@ -12,8 +12,7 @@
       "sha256": "97db364da8982d1b942ccf3f53c650927fa96c8eb0af8c925e89dc1273fa597d",
       "size": 8281531,
       "assetId": 758183000,
-      "added": "2026-11-17T08:06:50Z",
-      "pending": true
+      "added": "2026-11-17T08:06:48Z"
     },
     {
       "name": "ZMD Car",
