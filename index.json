@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 11:13",
+  "updated": "2026-11-17 11:16",
   "items": [
+    {
+      "name": "YouTube Gold",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YouTube_Gold_v21.36.45__TraidMod.CoM_.apk",
+      "icon": "",
+      "package": "app.gold.android.youtube",
+      "versionCode": 2147483647,
+      "version": "21.36.45",
+      "note": ".\n\nيوتيوب جولد YouTube Gold\n\n.",
+      "sha256": "c6f6ac61f2ef3770029f58ae5bd41524886c38d87627664798bdbb7cdf2d3351",
+      "size": 207355254,
+      "assetId": 758211439,
+      "added": "2026-11-17T08:16:44Z",
+      "pending": true
+    },
     {
       "name": "راديو العراق BYD",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD_Radio.apk",
