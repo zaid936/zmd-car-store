@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:48",
+  "updated": "2026-11-17 13:50",
   "items": [
+    {
+      "name": "YouTube Premium",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YouTube_Premium_v21.12.525_DiLink2.apk",
+      "icon": "",
+      "package": "com.android.youtube.premium",
+      "versionCode": 1561062964,
+      "version": "21.12.524",
+      "note": ".\n\n\nYouTube_Premium \nOnly DiLink 2.0\n\nيوتيوب بريميوم\nفقط لديلنك 2\n\n\n.",
+      "sha256": "168bb1275f30d6729261f48c248ffc53961524cefd0dce171958c16efc53b529",
+      "size": 123999351,
+      "assetId": 758670514,
+      "added": "2026-11-17T10:50:35Z",
+      "pending": true
+    },
     {
       "name": "Netflix Premium",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Netflix_Premium_v9.81.0_Modded_by_Getmodpc.apk",
