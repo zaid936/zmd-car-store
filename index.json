@@ -2,6 +2,19 @@
   "updated": "2026-11-17 10:56",
   "items": [
     {
+      "name": "DiDiSong Toolbox",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DIDI_ADB_Translated_by_Devolt.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DIDI_ADB_Translated_by_Devolt.apk.icon-1794902155469.png",
+      "package": "com.ddsong.bydbox",
+      "versionCode": 10,
+      "version": "1.2.1",
+      "note": "طريقة تفعيل ADB مجانا وتجاوز QR لسيارات ديلنك 3.0\nFree active ADB for BYD Dilink 3.0 and QR bypass \n\n🇺🇦 Here 🎥 شاهد فيديو العمل \n\n.🆓🔥",
+      "sha256": "99c8519d3fa134e2a643007ac69f1bec500dcc667b00a4c9afd02e0f048acfc2",
+      "size": 3479036,
+      "assetId": 758150762,
+      "added": "2026-11-17T07:56:13Z"
+    },
+    {
       "name": "StradaOS",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/StradaOS-2.16.0.apk",
       "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/StradaOS-2.16.0.apk.icon.png",
@@ -12,13 +25,12 @@
       "sha256": "11875df8b1458f870f23c9c39bfb74e0b79f97782d53aa3f4ec8e09dacce9c88",
       "size": 599784,
       "assetId": 758150608,
-      "added": "2026-11-17T07:56:17Z",
-      "pending": true
+      "added": "2026-11-17T07:56:10Z"
     },
     {
       "name": "Tech VPN Pro",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Tech_VPN_Pro__Lifetime__4.4.7_by_ANiK555_enc.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Tech_VPN_Pro__Lifetime__4.4.7_by_ANiK555_enc.apk.icon.webp",
       "package": "com.tech.vpnpro",
       "versionCode": 80001,
       "version": "4.4.7",
@@ -26,11 +38,10 @@
       "sha256": "850a50cd0e8d3a3e2845f241f73c8d7bc24ba723d9fe762989f65d51798f5f4e",
       "size": 27106986,
       "assetId": 758150627,
-      "added": "2026-11-17T07:56:13Z",
-      "pending": true
+      "added": "2026-11-17T07:56:10Z"
     },
     {
-      "name": "DiLink5 ADB",
+      "name": "DiLink5-ADB-ANAS",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5-ADB-ANAS.apk",
       "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5-ADB-ANAS.apk.icon-1794902147064.jpg",
       "package": "com.anas.dilink5adb",
@@ -40,8 +51,7 @@
       "sha256": "7bc1b7c00a1cc8b9207d6846a33ec3d1f72191084843dc72795c7e9da6c6f540",
       "size": 33167,
       "assetId": 758150548,
-      "added": "2026-11-17T07:56:10Z",
-      "pending": true
+      "added": "2026-11-17T07:56:09Z"
     },
     {
       "name": "lepidvpn VPN",
@@ -172,19 +182,6 @@
       "size": 2294762,
       "assetId": 757867207,
       "added": "2026-11-17T06:09:47Z"
-    },
-    {
-      "name": "DiDiSong Toolbox",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DIDI_ADB_Translated_by_Devolt.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DIDI_ADB_Translated_by_Devolt.apk.icon-1794902155469.png",
-      "package": "com.ddsong.bydbox",
-      "versionCode": 10,
-      "version": "1.2.1",
-      "note": "طريقة تفعيل ADB مجانا وتجاوز QR لسيارات ديلنك 3.0\nFree active ADB for BYD Dilink 3.0 and QR bypass \n\n🇺🇦 Here 🎥 شاهد فيديو العمل \n\n.🆓🔥",
-      "sha256": "99c8519d3fa134e2a643007ac69f1bec500dcc667b00a4c9afd02e0f048acfc2",
-      "size": 3479036,
-      "assetId": 754574345,
-      "added": "2026-11-16T11:21:04Z"
     },
     {
       "name": "Opera Mini",
