@@ -267,8 +267,18 @@ async def main():
         if action == "list":
             await listing(c)
         elif action == "fetch":
-            cap = os.environ.get("CAPTION")
-            added += await fetch_one(c, int(os.environ["MSG_ID"]), cap if cap is not None and os.environ.get("HAS_CAPTION") == "1" else None)
+            # One message (with an edited description), or many at once (each with its channel caption).
+            many = [int(x) for x in os.environ.get("MSG_IDS", "").split(",") if x.strip().isdigit()]
+            if many:
+                for mid in many:
+                    try:
+                        added += await fetch_one(c, mid)
+                    except Exception as e:
+                        print(f"message {mid} failed: {e}")
+                        report(f"tg-{mid}", True, stage="failed", done=True, ok=False, error="ما نزل")
+            else:
+                cap = os.environ.get("CAPTION")
+                added += await fetch_one(c, int(os.environ["MSG_ID"]), cap if cap is not None and os.environ.get("HAS_CAPTION") == "1" else None)
         elif action == "watch":
             items = await listing(c)
             _, assets = release()

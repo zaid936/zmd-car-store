@@ -12,6 +12,8 @@ on:
         default: ""
       has_caption:
         default: "0"
+      msg_ids:
+        default: ""
   schedule:
     - cron: "*/10 * * * *"   # auto-watch (does nothing while it is switched off)
 
@@ -49,6 +51,7 @@ jobs:
           MSG_ID: ${{ inputs.msg_id }}
           CAPTION: ${{ inputs.caption }}
           HAS_CAPTION: ${{ inputs.has_caption }}
+          MSG_IDS: ${{ inputs.msg_ids }}
       - name: Save
         run: |
           git add -A tg notes.json 2>/dev/null || true
