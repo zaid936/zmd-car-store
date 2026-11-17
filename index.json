@@ -4,7 +4,7 @@
     {
       "name": "DiLink 5.0 Updater",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5_Updater_v1.0.1_EN.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5_Updater_v1.0.1_EN.apk.icon.png",
       "package": "com.mofang.dilinkupdater",
       "versionCode": 101,
       "version": "1.0.1",
@@ -12,8 +12,7 @@
       "sha256": "7be673843a214265e8886f7d65ac06eb30bf9b5f562658c819368a4a0747ba01",
       "size": 34554,
       "assetId": 758064503,
-      "added": "2026-11-17T07:24:05Z",
-      "pending": true
+      "added": "2026-11-17T07:24:03Z"
     },
     {
       "name": "ZMD Car",
