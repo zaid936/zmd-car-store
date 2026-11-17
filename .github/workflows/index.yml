@@ -1,0 +1,37 @@
+name: Update store list
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [notes.json]
+
+# One run at a time; a newer request waits for the current one instead of racing it.
+concurrency:
+  group: store-index
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet androguard==4.1.2
+      - run: python .github/scripts/build_index.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Save index.json
+        run: |
+          if git diff --quiet index.json; then echo "nothing to save"; exit 0; fi
+          git config user.name "zmd-store-bot"
+          git config user.email "zmd-store-bot@users.noreply.github.com"
+          git add index.json
+          git commit -m "Update store index"
+          git push

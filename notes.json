@@ -1,0 +1,6 @@
+{
+  "DIDI_ADB_Translated_by_Devolt.apk": "طريقة تفعيل ADB مجانا وتجاوز QR لسيارات ديلنك 3.0\nFree active ADB for BYD Dilink 3.0 and QR bypass \n\n🇺🇦 Here 🎥 شاهد فيديو العمل \n\n.🆓🔥",
+  "DiLink5-ADB-ANAS.apk": "طريقة تفعيل ADB مجانا وتجاوز QR لسيارات ديلنك 5.0 و 5.1 \nFree active ADB for BYD Dilink 5.0/5.1 and QR bypass \n\n🎵 Here 📹\n\n. 🆓🔥",
+  "base.apk": ".\n\nمتصفح اوبرا\n\nتعيين هذا المتصفح كمتصفح افتراضي داخل سيارتك، بدلا من متصفح بايدو الصيني \nلمشاهدة طريقة العمل (اضغط هنا) \n\nامر التفعيل من داخل الخنفساء\n(ضغطة واحدة لنسخ الامر)\n\ncmd role add-role-holder --user 0 android.app.role.BROWSER com.opera.mini.native\n﻿\n_________ \n\nOpera Browser\n\nSet this browser as the default browser inside your car, instead of the Chinese Baidu browser\nTo watch how it works (click here)\n\nActivation command from inside Beetle:\n(One tap to copy)\ncmd role add-role-holder --user 0 android.app.role.BROWSER com.opera.mini.native\n﻿\n.",
+  "StradaOS-2.16.0.apk": ".\n🕹️🏪 سترادا او اس لانشر / للانظمة القديمة\n📱🏪 StradaOS launcher / For old dilink\n\n. 🆓🔥"
+}
