@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 10:28",
+  "updated": "2026-11-17 10:31",
   "items": [
+    {
+      "name": "Kinex",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/kinex.apk",
+      "icon": "",
+      "package": "com.lexwah.kinex",
+      "versionCode": 1,
+      "version": "0.4.6",
+      "note": "لانشر كينكس Kinex Launcher \nمن افضل وابسط اللانشرات للسيارات وخاصة ذات الديلنك 2 و 3 لكونه سريع .\n\nيحتاج adb\n\n.",
+      "sha256": "c9c51bb3a6e17380e4ab41fe1978b08df7cf176eceda1aec674abfa6f028a6bb",
+      "size": 99173262,
+      "assetId": 758086006,
+      "added": "2026-11-17T07:31:40Z",
+      "pending": true
+    },
     {
       "name": "Spotify",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Spotify-5.5.0-HeadUnit-test.22.apk",
