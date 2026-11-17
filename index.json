@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17 09:29",
+  "updated": "2026-11-17 09:30",
   "items": [
     {
       "name": "StradaOS",
@@ -12,8 +12,7 @@
       "sha256": "11875df8b1458f870f23c9c39bfb74e0b79f97782d53aa3f4ec8e09dacce9c88",
       "size": 599784,
       "assetId": 757920709,
-      "added": "2026-11-17T06:29:59Z",
-      "pending": true
+      "added": "2026-11-17T06:29:57Z"
     },
     {
       "name": "DiAuto",
