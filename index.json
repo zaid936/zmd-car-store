@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-17 10:38",
+  "updated": "2026-11-17 10:39",
   "items": [
     {
       "name": "Google Play services",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Google_Play_services__23.48.15__040300-587865683__.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Google_Play_services__23.48.15__040300-587865683__.apk.icon.png",
       "package": "com.google.android.gms",
       "versionCode": 234815009,
       "version": "23.48.15 (040300-587865683)",
@@ -12,8 +12,7 @@
       "sha256": "8b241f32f3e2b95488f489587ccf278e13d1c9f0de664dce91b1d46a23a62840",
       "size": 118770415,
       "assetId": 758103081,
-      "added": "2026-11-17T07:38:22Z",
-      "pending": true
+      "added": "2026-11-17T07:38:15Z"
     },
     {
       "name": "Kinex",
