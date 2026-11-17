@@ -1,19 +1,6 @@
 {
-  "updated": "2026-11-17 09:35",
+  "updated": "2026-11-17 09:36",
   "items": [
-    {
-      "name": "AEB Manager",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/AEB_Manager_V1.0_Dilink5.0_By_MK.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/AEB_Manager_V1.0_Dilink5.0_By_MK.apk.icon.png",
-      "package": "com.mk.aebmanager",
-      "versionCode": 18200,
-      "version": "18.20",
-      "note": ".\n\nتطبيق ايقاف خاصية الفرملة الذاتية AEB (البريك التلقائي) للديلنك 5.0\n AED Disable (DiLink 5.0)\n\n\n.",
-      "sha256": "a1664f116c0064fd6753857a392012975802a713efdf895f0317ba27b8b94f2d",
-      "size": 138732,
-      "assetId": 757934983,
-      "added": "2026-11-17T06:34:55Z"
-    },
     {
       "name": "StradaOS",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/StradaOS-2.16.0.apk",
