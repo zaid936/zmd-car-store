@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:57",
+  "updated": "2026-11-17 13:58",
   "items": [
+    {
+      "name": "SpeedCN",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/SpeedCN__Unlimited__V4.3.1_by_ANiK555_enc__1_.apk",
+      "icon": "",
+      "package": "cloud.speedcn.speedcnx",
+      "versionCode": 182,
+      "version": "V4.3.1",
+      "note": "‏.\n\nنسخة غير محدودة، من سبيد ڤي پي أن\nUnlimited version fro SpeedCN VPN\n\nامسح القديم وثبتها\n\n.",
+      "sha256": "e10b4b16047c6c5634d196fbd19b3122622db6560887cbd7d176c4e10f5b9f7c",
+      "size": 23261427,
+      "assetId": 758693463,
+      "added": "2026-11-17T10:58:11Z",
+      "pending": true
+    },
     {
       "name": "YouTube",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/New_YoutubePRO.apk",
