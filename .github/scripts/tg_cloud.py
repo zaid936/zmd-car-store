@@ -27,6 +27,56 @@ TAG = "apps"
 MAX_PER_WATCH = 3
 
 safe_name = lambda n: re.sub(r"[^A-Za-z0-9._-]", "_", n)
+PROGRESS_URL = os.environ.get("PROGRESS_URL", "")
+PROGRESS_KEY = os.environ.get("PROGRESS_KEY", "")
+_last_report = {}
+
+
+def report(key, force=False, **fields):
+    """Tell the upload page how far this job is (shown as a live bar). Never fails the job."""
+    import time
+    if not PROGRESS_URL or not PROGRESS_KEY:
+        return
+    now = time.time()
+    prev = _last_report.get(key)
+    if not force and prev and now - prev[0] < 1.5 and fields.get("stage") == prev[1]:
+        return
+    _last_report[key] = (now, fields.get("stage"))
+    body = json.dumps({"key": key, **fields}).encode()
+    try:
+        urllib.request.urlopen(urllib.request.Request(PROGRESS_URL, data=body, method="POST",
+            headers={"content-type": "application/json", "x-key": PROGRESS_KEY, "user-agent": "ZMD-Store"}), timeout=10).read()
+    except Exception as e:
+        print("  (progress report failed:", e, ")")
+
+
+def upload_stream(url, path, on_progress):
+    """POST a file to GitHub in chunks so the page can show the upload percentage."""
+    import http.client
+    u = urllib.parse.urlparse(url)
+    total = os.path.getsize(path)
+    conn = http.client.HTTPSConnection(u.netloc, timeout=900)
+    conn.putrequest("POST", u.path + "?" + u.query)
+    for k, v in {"Authorization": "Bearer " + TOKEN, "User-Agent": "ZMD-Store", "Accept": "application/vnd.github+json",
+                 "Content-Type": "application/vnd.android.package-archive", "Content-Length": str(total)}.items():
+        conn.putheader(k, v)
+    conn.endheaders()
+    sent = 0
+    with open(path, "rb") as f:
+        while True:
+            b = f.read(1 << 18)
+            if not b:
+                break
+            conn.send(b)
+            sent += len(b)
+            on_progress(sent, total)
+    r = conn.getresponse()
+    t = r.read()
+    conn.close()
+    try:
+        return r.status, json.loads(t) if t else {}
+    except Exception:
+        return r.status, {"raw": t[:300]}
 
 
 def gh(method, url, data=None, ctype=None):
@@ -88,39 +138,48 @@ def release():
 
 
 async def fetch_one(c, msg_id, caption=None):
+    key = f"tg-{msg_id}"
     msg = await c.get_messages(CHANNEL, ids=msg_id)
     if not msg or not msg.file:
         print(f"message {msg_id}: no file")
+        report(key, True, stage="failed", done=True, ok=False, error="ما بيه ملف")
         return False
     name = safe_name(doc_name(msg))
     if not name.lower().endswith(".apk"):
         print(f"{name}: not an APK, skipped")
+        report(key, True, stage="failed", done=True, ok=False, error="مو برنامج .apk")
         return False
     if caption is None:
         caption = (msg.message or "").strip()
+    size = msg.file.size or 0
+    base = {"name": name, "file": name, "size": size, "from": "tg"}
+    report(key, True, stage="download", pct=0, done=False, **base)
     path = os.path.join(tempfile.mkdtemp(), name)
     last = [-1]
 
     def prog(cur, tot):
         p = int(cur * 100 / tot) if tot else 0
+        report(key, stage="download", pct=p, done=False, **base)
         if p // 10 != last[0]:
             last[0] = p // 10
             print(f"  download {name}: {p}%", flush=True)
 
     await c.download_media(msg, file=path, progress_callback=prog)
+    report(key, True, stage="upload", pct=0, done=False, **base)
     rid, assets = release()
     if name in assets:
         gh("DELETE", f"/repos/{REPO}/releases/assets/{assets[name]['id']}")
-    data = open(path, "rb").read()
-    s, d = gh("POST", f"{UPLOADS}/repos/{REPO}/releases/{rid}/assets?name={urllib.parse.quote(name)}", data,
-              "application/vnd.android.package-archive")
+    s, d = upload_stream(f"{UPLOADS}/repos/{REPO}/releases/{rid}/assets?name={urllib.parse.quote(name)}", path,
+                         lambda sent, tot: report(key, stage="upload", pct=int(sent * 100 / tot), done=False, **base))
     os.remove(path)
     if s not in (200, 201):
         print(f"upload of {name} failed: {s} {d}")
+        report(key, True, stage="failed", done=True, ok=False, error=f"GitHub رفض ({s})", **base)
         return False
     notes = load("notes.json", {})
     notes[name] = caption
     save("notes.json", notes)
+    report(key, True, stage="listing", pct=100, done=False, **base)
     print(f"+ {name} is in the store")
     return True
 

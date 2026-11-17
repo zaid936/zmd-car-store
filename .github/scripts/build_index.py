@@ -184,6 +184,7 @@ def main():
         if same:
             item = dict(old)
             item["assetId"] = a["id"]
+            item.setdefault("added", a["created_at"])
             item["note"] = (notes.get(name, item.get("note")) or "").strip()
             keep.add(item["icon"].rsplit("/", 1)[-1])
             items.append(item)
@@ -226,8 +227,12 @@ def main():
             "sha256": sha256(path),
             "size": a["size"],
             "assetId": a["id"],
+            "added": a["created_at"],
         })
         os.remove(path)
+
+    # Newest upload first: that's the order the car app shows them in.
+    items.sort(key=lambda it: it.get("added", ""), reverse=True)
 
     # Icons left behind by deleted apps.
     for n2, a2 in by_name.items():

@@ -41,6 +41,8 @@ jobs:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_CHANNEL: ${{ secrets.TG_CHANNEL }}
+          PROGRESS_URL: https://zmd-store.kc5zqt2pcd.workers.dev/api/progress
+          PROGRESS_KEY: ${{ secrets.PROGRESS_KEY }}
           ACTION: ${{ github.event_name == 'schedule' && 'watch' || inputs.action }}
           MSG_ID: ${{ inputs.msg_id }}
           CAPTION: ${{ inputs.caption }}
