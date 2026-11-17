@@ -2,6 +2,20 @@
   "updated": "2026-11-17 10:56",
   "items": [
     {
+      "name": "Tech VPN Pro",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Tech_VPN_Pro__Lifetime__4.4.7_by_ANiK555_enc.apk",
+      "icon": "",
+      "package": "com.tech.vpnpro",
+      "versionCode": 80001,
+      "version": "4.4.7",
+      "note": "● Tech VPN Pro / حماية الخصوصية*\n(مدى الحياة)*\n\n● البنية: جهاز ARM64\n● الإصدار: 4.4.7 (مستقر)\n\n❏ نظرة عامة:\nTech VPN - خدمة VPN ممتازة مع أسرع خادم VPN، واتصال VPN آمن، وحماية خصوصية المستخدمين.\n\n❏ معلومات مختصرة:\n● اشتراك احترافي مدى الحياة.\n● اتصال سريع مُفعّل.\n● رسوم متحركة سريعة للفتح.\n● لا توجد إعلانات.\n● تم تنظيف الإعلانات وأكواد التصحيح.\n● تمت إزالة التصميمات غير الضرورية.\n● مُحسّن بشكل جيد.",
+      "sha256": "850a50cd0e8d3a3e2845f241f73c8d7bc24ba723d9fe762989f65d51798f5f4e",
+      "size": 27106986,
+      "assetId": 758150627,
+      "added": "2026-11-17T07:56:13Z",
+      "pending": true
+    },
+    {
       "name": "DiLink5 ADB",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5-ADB-ANAS.apk",
       "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5-ADB-ANAS.apk.icon-1794902147064.jpg",
