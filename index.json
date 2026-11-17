@@ -2,6 +2,20 @@
   "updated": "2026-11-17 13:35",
   "items": [
     {
+      "name": "Picker Manager",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD-Picker-Manager-1.4.0.apk",
+      "icon": "",
+      "package": "com.alamri.pickermanager",
+      "versionCode": 10,
+      "version": "1.4.0",
+      "note": "..\n\nتقسيم الشاشة لسيارات ليوبارد والتي تأتي بفئة رقاقة 5.1\nSplit screen for LEOPARD and 5.1 Chipset \n\n..",
+      "sha256": "5bf9ec38c7eaf19624bbb732770a0b64a56ddecfe6af463b1720a27de7e55860",
+      "size": 5642877,
+      "assetId": 758625103,
+      "added": "2026-11-17T10:35:22Z",
+      "pending": true
+    },
+    {
       "name": "Spotify",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Spotify_v9.0.44.478__Premium__New_fix.apk",
       "icon": "",
