@@ -1,6 +1,19 @@
 {
-  "updated": "2026-11-17 09:36",
+  "updated": "2026-11-17 10:18",
   "items": [
+    {
+      "name": "ZMD Car",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
+      "package": "com.zmd.carhub",
+      "versionCode": 18,
+      "version": "1.8",
+      "note": "",
+      "sha256": "e39d4a7f3f29311b4806db36c1937968b753faeedca88c13db32712556c82587",
+      "size": 74965253,
+      "assetId": 758043792,
+      "added": "2026-11-17T07:16:55Z"
+    },
     {
       "name": "StradaOS",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/StradaOS-2.16.0.apk",
@@ -52,19 +65,6 @@
       "size": 33167,
       "assetId": 757848406,
       "added": "2026-11-17T06:02:02Z"
-    },
-    {
-      "name": "ZMD Car",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
-      "package": "com.zmd.carhub",
-      "versionCode": 16,
-      "version": "1.6",
-      "note": "",
-      "sha256": "aa35c72f206f1e00aeb944895b3d8928137ec9c05c727a4b72f2bef15d8e5f85",
-      "size": 72793750,
-      "assetId": 754575478,
-      "added": "2026-11-16T11:21:30Z"
     },
     {
       "name": "DiDiSong Toolbox",
