@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 10:52",
+  "updated": "2026-11-17 10:56",
   "items": [
+    {
+      "name": "DiLink5 ADB",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5-ADB-ANAS.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5-ADB-ANAS.apk.icon-1794902147064.jpg",
+      "package": "com.anas.dilink5adb",
+      "versionCode": 10,
+      "version": "1.9",
+      "note": "طريقة تفعيل ADB مجانا وتجاوز QR لسيارات ديلنك 5.0 و 5.1 \nFree active ADB for BYD Dilink 5.0/5.1 and QR bypass \n\n🎵 Here 📹\n\n. 🆓🔥",
+      "sha256": "7bc1b7c00a1cc8b9207d6846a33ec3d1f72191084843dc72795c7e9da6c6f540",
+      "size": 33167,
+      "assetId": 758150548,
+      "added": "2026-11-17T07:56:10Z",
+      "pending": true
+    },
     {
       "name": "lepidvpn VPN",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/lepidvpn_VPN__Premium__17_by_ANiK555_enc.apk",
@@ -143,19 +157,6 @@
       "size": 2294762,
       "assetId": 757867207,
       "added": "2026-11-17T06:09:47Z"
-    },
-    {
-      "name": "DiLink5-ADB-ANAS",
-      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5-ADB-ANAS.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DiLink5-ADB-ANAS.apk.icon-1794902147064.jpg",
-      "package": "com.anas.dilink5adb",
-      "versionCode": 10,
-      "version": "1.9",
-      "note": "طريقة تفعيل ADB مجانا وتجاوز QR لسيارات ديلنك 5.0 و 5.1 \nFree active ADB for BYD Dilink 5.0/5.1 and QR bypass \n\n🎵 Here 📹\n\n. 🆓🔥",
-      "sha256": "7bc1b7c00a1cc8b9207d6846a33ec3d1f72191084843dc72795c7e9da6c6f540",
-      "size": 33167,
-      "assetId": 757848406,
-      "added": "2026-11-17T06:02:02Z"
     },
     {
       "name": "DiDiSong Toolbox",
