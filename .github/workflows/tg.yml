@@ -32,7 +32,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install --quiet telethon==1.36.0 cryptg
+          cache: pip
+          cache-dependency-path: .github/requirements-tg.txt
+      - run: pip install --quiet -r .github/requirements-tg.txt
       - id: tg
         run: python .github/scripts/tg_cloud.py
         env:
