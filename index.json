@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16 14:22",
+  "updated": "2026-11-17 08:16",
   "items": [
     {
       "name": "DiDiSong Toolbox",
@@ -33,6 +33,17 @@
       "note": "طريقة تفعيل ADB مجانا وتجاوز QR لسيارات ديلنك 5.0 و 5.1 \nFree active ADB for BYD Dilink 5.0/5.1 and QR bypass \n\n🎵 Here 📹\n\n. 🆓🔥",
       "sha256": "7bc1b7c00a1cc8b9207d6846a33ec3d1f72191084843dc72795c7e9da6c6f540",
       "size": 33167
+    },
+    {
+      "name": "StradaOS",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/StradaOS-2.16.0.apk",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/StradaOS-2.16.0.apk.icon.png",
+      "package": "com.stradaos.launcher",
+      "versionCode": 46,
+      "version": "2.16.0",
+      "note": ".\n🕹️🏪 سترادا او اس لانشر / للانظمة القديمة\n📱🏪 StradaOS launcher / For old dilink\n\n. 🆓🔥",
+      "sha256": "11875df8b1458f870f23c9c39bfb74e0b79f97782d53aa3f4ec8e09dacce9c88",
+      "size": 599784
     },
     {
       "name": "ZMD Car",
