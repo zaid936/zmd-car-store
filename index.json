@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:50",
+  "updated": "2026-11-17 13:52",
   "items": [
+    {
+      "name": "microG Services",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Nwe_microg.apk",
+      "icon": "",
+      "package": "app.revanced.android.gms",
+      "versionCode": 250932004,
+      "version": "0.3.13.2.250932",
+      "note": "تحديث جديد \nمايكرو جي\nيتم تثبيته مع الحزمة كاملة\n \nMicroG\nIt must be installed with the complete package.\n.",
+      "sha256": "62119f040d629a9cd3225f280649a464936730c6466cafb5b9dd5ded14269a65",
+      "size": 105561934,
+      "assetId": 758675839,
+      "added": "2026-11-17T10:52:05Z",
+      "pending": true
+    },
     {
       "name": "YouTube Premium",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YouTube_Premium_v21.12.525_DiLink2.apk",
