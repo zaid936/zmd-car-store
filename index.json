@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:58",
+  "updated": "2026-11-17 13:59",
   "items": [
+    {
+      "name": "VPN China",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/VPN_China_v1.118__Pro_.apk",
+      "icon": "",
+      "package": "china.vpn_tap2free",
+      "versionCode": 118,
+      "version": "1.118",
+      "note": ".\n\nنسخة غير محدودة من چاينا ڤي بي ان\nUnlimited version for China vpn pro\n\n\n\nفائدته مثل تطبيقات سبيد و مونكي\nولكن الافضل في تحديث OTA.\nوطريقة العمل عليه لتحديثات السيرفرات OTA الهوائية:\n\n•تغلق الموقع Location \n•تعمل Restarting \n• تفتح ChinaVpn\n• تجرب تضغط Update في:\n Setting » Dilink » Version » Vehicle details (Or Multimedia details).\n\n\n.\n \n.",
+      "sha256": "b6a7d05a63c81771c553531445664cf3a896546dd4e02828798d2f6a829b0c32",
+      "size": 35981002,
+      "assetId": 758696085,
+      "added": "2026-11-17T10:59:07Z",
+      "pending": true
+    },
     {
       "name": "SpeedCN",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/SpeedCN__Unlimited__V4.3.1_by_ANiK555_enc__1_.apk",
