@@ -4,7 +4,7 @@
     {
       "name": "YouTube Music",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YM-6.31.55-2d.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/YM-6.31.55-2d.apk.icon.png",
       "package": "com.google.android.apps.youtube.music",
       "versionCode": 63155240,
       "version": "6.31.55",
@@ -12,13 +12,12 @@
       "sha256": "9efccbcad9219e3d27dbff8a75fa1e3a2c15c557ab036e4e06f105cc3955b9ff",
       "size": 57452116,
       "assetId": 758880782,
-      "added": "2026-11-17T11:58:12Z",
-      "pending": true
+      "added": "2026-11-17T11:58:07Z"
     },
     {
       "name": "ZMD Car",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
-      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
+      "icon": "",
       "package": "com.zmd.carhub",
       "versionCode": 30,
       "version": "3.0",
