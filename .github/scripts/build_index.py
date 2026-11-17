@@ -168,6 +168,11 @@ def main():
         notes = json.load(open("notes.json", encoding="utf-8"))
     except Exception:
         notes = {}
+    # Icons the owner picked on the upload page (Google Play / own image): never replaced here.
+    try:
+        chosen = json.load(open("icons.json", encoding="utf-8"))
+    except Exception:
+        chosen = {}
 
     items, keep = [], set()
     tmp = tempfile.mkdtemp()
@@ -180,12 +185,17 @@ def main():
         # so for those the size has to match.
         same = old and (old.get("assetId") == a["id"] or (not old.get("assetId") and old.get("size") == a["size"]))
         icon_ok = old and (old.get("icon") or "").rsplit("/", 1)[-1] in by_name
+        if chosen.get(name) in by_name:
+            icon_ok = True
         # Entries added instantly by the upload page / Telegram job are "pending": read them properly once.
         same = same and icon_ok and not old.get("pending")
         if same:
             item = dict(old)
             item["assetId"] = a["id"]
             item.setdefault("added", a["created_at"])
+            pick = chosen.get(name)
+            if pick and pick in by_name:
+                item["icon"] = by_name[pick]["browser_download_url"]
             item["note"] = (notes.get(name, item.get("note")) or "").strip()
             keep.add(item["icon"].rsplit("/", 1)[-1])
             items.append(item)
@@ -203,11 +213,17 @@ def main():
             os.remove(path)
             continue
         icon_url = ""
-        idata, iext = app_icon(path)
-        if not idata:
+        pick = chosen.get(name)
+        if pick and pick in by_name:
+            icon_url = by_name[pick]["browser_download_url"]
+            keep.add(pick)
+            idata = None
+        else:
+            idata, iext = app_icon(path)
+        if not idata and not icon_url:
             print("  no icon inside the app, making one from its first letter")
             idata, iext = letter_icon(info["label"] or os.path.splitext(name)[0])
-        if idata:
+        if idata and not icon_url:
             iname = name + ".icon" + iext
             for n2, a2 in list(by_name.items()):
                 if n2.startswith(name + ".icon"):
@@ -242,8 +258,11 @@ def main():
             req("DELETE", f"{API}/repos/{OWNER_REPO}/releases/assets/{a2['id']}")
 
     # Icons left behind by deleted apps.
+    keep.update(v for v in chosen.values() if v in by_name)
+    for it in items:
+        keep.add((it.get("icon") or "").rsplit("/", 1)[-1])
     for n2, a2 in by_name.items():
-        if ".icon." in n2 and n2 not in keep:
+        if (".icon." in n2 or ".icon-" in n2) and n2 not in keep:
             req("DELETE", f"{API}/repos/{OWNER_REPO}/releases/assets/{a2['id']}")
 
     baghdad = datetime.now(timezone.utc) + timedelta(hours=3)
