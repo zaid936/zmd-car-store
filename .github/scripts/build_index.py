@@ -40,6 +40,19 @@ def req(method, url, data=None, ctype=None):
         return e.code, {"raw": e.read().decode(errors="replace")}
 
 
+def all_assets(release_id):
+    """Every file of the release (GitHub gives 100 per page)."""
+    out, page = [], 1
+    while True:
+        s, d = req("GET", f"{API}/repos/{OWNER_REPO}/releases/{release_id}/assets?per_page=100&page={page}")
+        if s != 200 or not d:
+            return out
+        out += d
+        if len(d) < 100:
+            return out
+        page += 1
+
+
 def aapt():
     found = sorted(glob.glob(os.path.join(os.environ.get("ANDROID_HOME", "/usr/local/lib/android/sdk"), "build-tools", "*", "aapt")))
     if not found:
@@ -157,7 +170,7 @@ def main():
     if s != 200:
         sys.exit(f"release '{TAG}' not found: {s}")
     rid = rel["id"]
-    s, assets = req("GET", f"{API}/repos/{OWNER_REPO}/releases/{rid}/assets?per_page=100")
+    s, assets = 200, all_assets(rid)
     by_name = {a["name"]: a for a in assets}
 
     try:

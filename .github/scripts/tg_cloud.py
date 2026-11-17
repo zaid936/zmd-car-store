@@ -94,6 +94,19 @@ def gh(method, url, data=None, ctype=None):
         return e.code, {"raw": e.read().decode(errors="replace")}
 
 
+def all_assets(release_id):
+    """Every file of the release (GitHub gives 100 per page)."""
+    out, page = [], 1
+    while True:
+        s, d = gh("GET", f"/repos/{REPO}/releases/{release_id}/assets?per_page=100&page={page}")
+        if s != 200 or not d:
+            return out
+        out += d
+        if len(d) < 100:
+            return out
+        page += 1
+
+
 def load(path, default):
     try:
         return json.load(open(path, encoding="utf-8"))
@@ -185,7 +198,7 @@ def release():
     s, rel = gh("GET", f"/repos/{REPO}/releases/tags/{TAG}")
     if s != 200:
         sys.exit(f"release not found: {s}")
-    s, assets = gh("GET", f"/repos/{REPO}/releases/{rel['id']}/assets?per_page=100")
+    assets = all_assets(rel['id'])
     return rel["id"], {a["name"]: a for a in assets}
 
 
