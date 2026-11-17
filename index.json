@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 13:38",
+  "updated": "2026-11-17 13:42",
   "items": [
+    {
+      "name": "Chrome",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/07Chrome__117.0.5938.60_.apk",
+      "icon": "",
+      "package": "com.android.chrome",
+      "versionCode": 593806021,
+      "version": "117.0.5938.60",
+      "note": ".\n\nتطبيق كوكل كروم، متصفح كوكل يعمل مع مايكروجي\nChrome app for micro-g working \n\n.",
+      "sha256": "74c34a2d730b486416f6a7262806c22dad751c60a195e7834558003b64296524",
+      "size": 243779558,
+      "assetId": 758645116,
+      "added": "2026-11-17T10:42:10Z",
+      "pending": true
+    },
     {
       "name": "嘟嘟桌面PRO-比亚迪专享版",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/DUDU_Launcher_Pro_AN.apk",
