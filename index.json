@@ -2,6 +2,20 @@
   "updated": "2026-11-17 13:42",
   "items": [
     {
+      "name": "lumig",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/lumig-v2.2.5.apk",
+      "icon": "",
+      "package": "com.khalfeyti.wallpaper",
+      "versionCode": 35,
+      "version": "2.2.5",
+      "note": ".\n\nتغيير خليفات الشاشة الرئيسية\nCentral screen Wallpaper \n\n.",
+      "sha256": "14d126b7beb2f4a48cf481df355f93738e71a9626aca106c0decb6820be3d111",
+      "size": 6855766,
+      "assetId": 758647711,
+      "added": "2026-11-17T10:42:52Z",
+      "pending": true
+    },
+    {
       "name": "Drama Live",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Drama_Live_13.0.3.apk",
       "icon": "",
