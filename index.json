@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17 11:25",
+  "updated": "2026-11-17 11:26",
   "items": [
+    {
+      "name": "microG Services",
+      "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/microG___bydautoiraq_.apk",
+      "icon": "",
+      "package": "app.revanced.android.gms",
+      "versionCode": 240913008,
+      "version": "0.3.1.4.240913-hw",
+      "note": ".\n\nمايكروجي جديد New MicroG\n\n.",
+      "sha256": "f0617066a4cd5948743ead351c53ef47e9d16dd7c8cbd0ef1126ea57aa3e9074",
+      "size": 40286417,
+      "assetId": 758242561,
+      "added": "2026-11-17T08:26:42Z",
+      "pending": true
+    },
     {
       "name": "Stellar",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Stellar_abunarjis.apk",
