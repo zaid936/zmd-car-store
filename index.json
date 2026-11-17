@@ -18,7 +18,7 @@
     {
       "name": "Simple Radio",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Simple_Radio.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/Simple_Radio.apk.icon-1794911957230.png",
       "package": "com.streema.simpleradio",
       "versionCode": 821,
       "version": "6.1.1",
