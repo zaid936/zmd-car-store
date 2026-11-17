@@ -4,7 +4,7 @@
     {
       "name": "رادیو BYD ایران",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD_Radio_Persian.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD_Radio_Persian.apk.icon.png",
       "package": "com.persianradio.byd",
       "versionCode": 1,
       "version": "1.0.0",
@@ -12,8 +12,7 @@
       "sha256": "325790fdc14290cda6387dfb763ce56b0e007494913894493837509c8699244f",
       "size": 6356770,
       "assetId": 758197663,
-      "added": "2026-11-17T08:12:10Z",
-      "pending": true
+      "added": "2026-11-17T08:12:07Z"
     },
     {
       "name": "XEQ Equalizer",
