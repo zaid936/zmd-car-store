@@ -4,7 +4,7 @@
     {
       "name": "راديو العراق BYD",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD_Radio.apk",
-      "icon": "",
+      "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/BYD_Radio.apk.icon.png",
       "package": "com.iraqhybridradio.byd",
       "versionCode": 1,
       "version": "0.1.0",
@@ -12,8 +12,7 @@
       "sha256": "5f7694832bd81beae90ef732cc63266a259a09a5261026a00536c1af5212e8d0",
       "size": 6889860,
       "assetId": 758201582,
-      "added": "2026-11-17T08:13:24Z",
-      "pending": true
+      "added": "2026-11-17T08:13:22Z"
     },
     {
       "name": "XEQ Equalizer",
