@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-18 14:18",
+  "updated": "2026-11-18 15:49",
   "items": [
     {
       "name": "ZMD Car",
       "url": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk",
       "icon": "https://github.com/zaid936/zmd-car-store/releases/download/apps/zmd-car.apk.icon.png",
       "package": "com.zmd.carhub",
-      "versionCode": 50,
-      "version": "4.4.1",
+      "versionCode": 56,
+      "version": "4.7.2",
       "note": "",
-      "sha256": "4a32b4c1bb4e3296048f6316838d4ea3a84f0d2b7011bb3ba54e9639a19c3dd0",
-      "size": 95641212,
-      "assetId": 763094934,
-      "added": "2026-11-18T11:16:55Z"
+      "sha256": "1dfaa78add74cbb34e6c6ca871610f536798634943a9d0d9b8a27c44a87bfa4e",
+      "size": 95657647,
+      "assetId": 763381398,
+      "added": "2026-11-18T12:47:12Z"
     },
     {
       "name": "YouTube Music",
